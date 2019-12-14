@@ -1,0 +1,41 @@
+.navbar{-webkit-border-radius:0;-moz-border-radius:0;border-radius:0;margin-bottom:0}
+.navbar-default{background-color:transparent;border:none}
+.navbar-collapse{border:none;-moz-box-shadow:none;-webkit-box-shadow:none;box-shadow:none}
+#claytonMenu .topLevel>li>a{color:#3f3f3f}
+#claytonMenu .topLevel>li>a:focus,#claytonMenu .topLevel>li>a:hover{color:#979797}
+#claytonMenu .topLevel>li.active>a:focus,#claytonMenu .topLevel>li.active>a:hover{color:#3f3f3f}
+#claytonMenu .topLevel>.open>a,#claytonMenu .topLevel>.open>a:hover,#claytonMenu .topLevel>.open>a:focus{background:none}
+#claytonMenu .topLevel>.active.open>a,#claytonMenu .topLevel>.active.open>a:hover,#claytonMenu .topLevel>.active.open>a:focus{background-color:#e7e7e7}
+#claytonMenu .navbar-default .topLevel>li>a{-webkit-transition:all .3s ease 0s;-moz-transition:all .3s ease 0s;-o-transition:all .3s ease 0s;transition:all .3s ease 0s}
+#claytonMenu .dropdown-menu{-moz-border-radius:0;-webkit-border-radius:0;border-radius:0;background:#f1f1f1;padding:0}
+#claytonMenu .dropdown-menu::after{bottom:100%;left:35%;border:solid transparent;content:" ";height:0;width:0;position:absolute;pointer-events:none;border-color:rgba(241,241,241,0);border-bottom-color:#f1f1f1;border-width:10px;margin-left:-30px}
+#claytonMenu .dropdown-menu li{background:none;float:none;clear:both;width:auto;padding:5px 5px;border-bottom:1px solid #e1e1e1;-o-transition:all .3s ease 0s;-webkit-transition:all .3s ease 0s;-moz-transition:all .3s ease 0s;transition:all .3s ease 0s}
+#claytonMenu .dropdown-menu li:hover{background:#7ca0c0}
+#claytonMenu .dropdown-menu li:last-child{border:none}
+#claytonMenu .dropdown-menu li>a{background:transparent}
+#claytonMenu .dropdown-menu li.active>a,#claytonMenu .dropdown-menu li.active a:hover,#claytonMenu .dropdown-menu li.active a:focus{color:#3f3f3f;font-weight:600}
+#claytonMenu .dropdown-menu a:hover{color:#fff}#claytonMenu .subLevelRight::after{border:none}
+@media only screen and (min-width:768px) and (max-width:995px){
+	#claytonMenu .nav li{font-size:15px}
+}
+@media only screen and (max-width:767px){
+	#claytonMenu .dropdown-menu{padding:0}
+	#claytonMenu .dropdown-menu::after{border:none;pointer-events:none;border-color:none;border-width:0}
+	#claytonMenu .dropdown-menu.subLevel{padding:0}
+	#claytonMenu .dropdown-menu.subLevel li.active a span{color:#3f3f3f}
+	#claytonMenu .dropdown-menu.subLevel li{background:#4a4f54;border-bottom:1px solid #4a4b4c;padding:0}
+	#claytonMenu .dropdown-menu.subLevelRight li{background:#5d6062;padding:0}
+	#claytonMenu .topLevel li{position:relative;background:#383c40;list-style-type:none;float:none;width:100%;margin-bottom:0;border-top:1px solid rgba(0,0,0,.1)}
+	#claytonMenu .topLevel li.active a{color:#3f3f3f;font-weight:bold}
+	#claytonMenu .topLevel li a{display:block;color:#ddd;-webkit-transition:all .2s ease 0s;-moz-transition:all .2s ease 0s;-o-transition:all .2s ease 0s;transition:all .2s ease 0s;padding-top:5px;padding-bottom:5px;padding-left: 0;padding-right: 0;}
+	#claytonMenu .topLevel li a:hover{background:#bbc2c8}
+	#claytonMenu .topLevel li a:hover span{color:#3f3f3f}
+	#claytonMenu .topLevel li a span{line-height:52px;margin:0;padding:0;font-size:15px}
+	#claytonMenu .topLevel .dropdown.open a span{color:#7ca0c0}
+	#claytonMenu .topLevel .dropdown-menu.subLevel a span{color:#fff}
+	#claytonMenu .topLevel>li>a{color:#fff}#claytonMenu .topLevel>li>a:hover span{color:#7ca0c0}
+	#claytonMenu .dropdown.open .subLevel>li a:hover span{color:#69849d}
+	.navbar-nav.sm-collapsible .caret,.navbar-nav.sm-collapsible ul .caret{position:absolute;right:0;padding:0;width:65px;height:62px;line-height:60px;text-align:center;border-width:1px;border-style:solid;top:0;border:none;background-color:#2c2f33;display:block;margin:0;border-radius:0;font-size:1.3em}
+}
+
+/*ADD THESE TO PORTAL STYLES*/

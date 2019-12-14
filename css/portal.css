@@ -1,0 +1,33 @@
+.university-emergency {
+    padding: 10px 20px;
+    background-color: #ac283b;
+}
+.university-emergency p, .university-emergency a {
+    color:#fff;
+    font-size:16px;
+}
+.university-emergency a {
+    text-decoration:underline;
+}
+.university-emergency strong {
+    color: #fff;
+}
+
+.btn-coolGray {
+	margin:20px auto;
+	width:50%;
+	text-align:center;
+	background-color:#54565b;
+	color:#fff;
+	padding:10px;
+	font-size:17px;
+}
+.btn-coolGray a {
+	color:#fff;
+	text-decoration:none;
+	font-weight:bold;
+}
+.btn-coolGray a:hover {
+	color:#fff;
+	text-decoration:underline;
+}

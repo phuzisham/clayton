@@ -1,0 +1,122 @@
+/*Google CSS Overrides*/
+form.gsc-search-box, td.gsc-search-button, form.gsc-search-box, table.gsc-search-box td.gsc-input {
+    padding: 0 !important;
+}
+input#gsc-i-id1 {
+    background: none !important;
+    text-indent: unset !important;
+	height: 2em !important;
+	padding-left:5px !important;
+}
+.gsc-input-box {height:34px !important;border:1px solid #54565b !important;}
+.gsib_a {padding:0 !important;}
+.gsib_b {display:none !important;}
+.cse .gsc-search-button-v2, .gsc-search-button-v2 {
+	margin-left:0 !important;
+	margin-top:0 !important;
+	padding: 6px 27px 3px 27px !important;
+}
+.cse input.gsc-input, input.gsc-input {
+    border: none !important;
+	text-indent: unset !important;
+}
+.gsc-search-button-v2 svg {
+	width:15px !important;
+	height:15px !important;
+}
+td.gsc-clear-button {
+    display: none !important;
+}
+.cse .gsc-search-button-v2, .gsc-search-button-v2 {
+	font-size:5px !important;
+    -moz-border-radius: 0 !important;
+    -webkit-border-radius: 0 !important;
+	border-radius: 0 !important;
+	border-color:#092c74 !important;
+	background-color:#092c74 !important;
+}
+.cse input.gsc-search-button, input.gsc-search-button {
+    font-size: 15px;
+    color: #fff;
+    font-weight: 400;
+    padding: 0 8px;
+    height: 36px;
+    min-width: 54px;
+    background: #54565b;
+    border: 1px solid #54565b;
+    border-radius: 0px;
+    -moz-border-radius: 0px;
+    -webkit-border-radius: 0px;
+}
+/*Custom search*/
+.search-mobile {display:none;}
+header .search {
+	display: block;
+	position:absolute;
+    width: 0px;
+    height: 0px;
+	background-color:#fff;
+	/*transition: width 0.5s ease;*/
+}
+header.search-open .search {
+    display: block;
+    height: 36px;
+    position: absolute;
+    top:27px;
+    right: 49px;
+    z-index: 1;
+	width:490px;
+	/*transition: width 0.5s ease;*/
+}
+label, .fa {
+	top:2px;
+}
+
+header.search-open .mainHead .searchArea .search-toggle span.fa-search::before {
+    content: "\f00d";
+	padding:4px;
+	height:0;
+	width:0;
+}
+header.search-open .mainHead .searchArea .search-toggle {
+	display:block;
+	height:0;
+	width:0;
+	/*transition: width 0.5s ease;*/
+}
+#navbar .searchArea .search-toggle {
+		display: block;
+		float: left;
+		width: 100%;
+		height: 34px;
+		color: #fff;
+		font-size: 16px;
+		cursor: pointer;
+		z-index: 2;
+		position: relative;
+		background:#54565b;
+		border: 1px solid #54565b;
+		outline:none;
+	}
+
+@media only screen and (max-width:767px) {
+
+  	header .search-mobile {
+		display: block;
+		float:left;
+		width: 100%;
+		background-color:#fff;
+		border: 1px solid #dddddc;
+		margin-bottom:20px 0 35px 0;
+	}
+	#navbar .searchArea .search-toggle {
+		display:none;
+	}
+	#___gcse_1 {
+    	height: 36px;
+	}
+	input#gsc-i-id2 {
+		background: none !important;
+		text-indent: unset !important;
+	}
+}

@@ -1,0 +1,226 @@
+/*Dare to Dream CSS Page Overrides*/
+.dtdWhite {
+	background-color:#f1f1ec;
+}
+.dtdBlue {
+	background-color:#e8f0f2;
+}
+h3 {
+    font-size: 21px;
+    font-weight: normal;
+    color: #092c74;
+}
+.csulogo img {
+    height: 64px;
+    width: 250px;
+}
+#navbar {
+    border-bottom: 4px solid #092c74;
+}
+ul,ol {
+	margin-bottom:5px;
+}
+#siteWrapper {
+    padding-bottom: 40px;
+}
+.dream-jobs {
+    background-color: #092c74;
+    padding: 30px 30px 20px 30px;
+    color: #fff;
+}
+.pane-spacing {
+	padding:15px 15px 0 15px;
+}
+.blue-pane-spacing {
+	padding-top:50px;padding-left:30px;padding-right:30px;
+}
+.blue-pane-spacing p, .blue2-pane-spacing p {
+	font-size:17px;color:#092c74;
+}
+.blue2-pane-spacing {
+	padding-top:70px;padding-left:40px;padding-right:40px;
+
+}
+.row {
+	margin-right: -15px;
+	margin-left: -15px;
+	padding-right: 15px;
+	padding-left: 15px;
+}
+.col-lg-1, .col-lg-10, .col-lg-11, .col-lg-12, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-md-1, .col-md-10, .col-md-11, .col-md-12, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-sm-1, .col-sm-10, .col-sm-11, .col-sm-12, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-xs-1, .col-xs-10, .col-xs-11, .col-xs-12, .col-xs-2, .col-xs-3, .col-xs-4, .col-xs-5, .col-xs-6, .col-xs-7, .col-xs-8, .col-xs-9 {
+	padding-left:0;padding-right:0;
+}
+footer {
+    padding-top: 30px;
+}
+footer .dtdaddress {
+	margin-left: 30px;
+	margin-top: 8px;
+	border-left: 1px solid #c3d6eb;
+	padding-left: 60px;
+	border-right: 1px solid #c3d6eb;
+	margin-right:-20px;
+}
+footer .dtdcopyright {
+	padding-left:74px;padding-top:8px;
+}
+.RI-bg {
+	background-image:url(../images/RI-bg.png);
+	height:68px;
+}
+.searchArea {
+	color: #092c74;
+    font-weight: 800;
+}
+.RI-container {
+	position: relative;
+    text-align: center;
+    color: white;
+}
+.RI-centered-left {position:absolute;top:26%;left:16px;}
+figcaption {
+    background-color: #092c74;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+.navbar-nav > li > a {
+	padding-top:8px;
+}
+.lm-spacing-1 {padding:19px 0 0 20px;}
+.lm-spacing-2 {padding:21px 0 0 20px;}
+.white-link {color:#fff;}
+.searchArea.expanded .searchBox, .searchArea .searchBox {border-left:none;}
+.white-link:hover {
+    color: #f1f1ec;
+}
+.contentWidth.dtdWhite, .contentWidth .dtdWhite {
+    background-color: #f1f1ec;
+}
+.contentWidth.dtdBlue, .contentWidth .dtdBlue {
+    background-color: #e8f0f2;
+}
+ .callToAction .flipHolder, .callToAction-UA .flipHolder{
+	perspective:1000px;
+}
+.callToAction .flip{
+
+}
+.callToAction .flip:hover, .callToAction .flip:focus, .callToAction-UA .flip:hover, .callToAction-UA .flip:focus{
+	transform:rotateY(180deg);
+	background-color:transparent !important;
+	text-decoration:none;
+	color:#ffffff;
+}
+.callToAction .flip:focus {
+    /*outline: #ffffff solid 2px !important;*/
+}
+.callToAction .flip:hover .front, .callToAction .flip:focus .front, .callToAction-UA .flip:hover .front, .callToAction-UA .flip:focus .front{
+	display:none;
+	backface-visibility:hidden;
+	-ms-backface-visibility:hidden;
+}
+.callToAction .flip:hover .back, .callToAction .flip:focus .back, .callToAction-UA .flip:hover .back, .callToAction-UA .flip:focus .back{
+	display:block;
+	backface-visibility:visible;
+	-ms-backface-visibility:visible;
+}
+.callToAction .flip, .callToAction .flip .front, .callToAction .flip .back{
+	min-height:222px;
+	width:100%;
+	max-width:327px;
+	margin-left: auto;
+    margin-right: auto;
+}
+.callToAction .flip, .callToAction .flip .front, .callToAction-UA .flip, .callToAction-UA .flip .front{
+	display:block;
+}
+.callToAction .flip .back, .callToAction-UA .flip .back{
+	display:none;
+	background-position:center;
+}
+.callToAction-UA .flip{
+	transition: 1.2s;
+	transform-style: preserve-3d;
+	position:relative;
+	background-repeat: no-repeat;
+    background-position: center;
+	width:100%;
+	display:block;
+}
+.callToAction-UA .flip h3{
+    font-size: 24px;
+    font-weight: 400;
+    color: #ffffff;
+	text-shadow: 2px 2px #000;
+	/*background-color: rgba(0,0,0,0.4);*/
+	background-color:#092c74;
+	padding:15px 0 15px 0;
+}
+.callToAction-UA .flip .front{
+	backface-visibility:hidden;
+	/*padding-top:140px;*/
+	padding-top:20%;
+}
+.callToAction-UA .flip .back{
+	backface-visibility:hidden;
+	padding-top:75px;
+}
+.callToAction-UA .flip .front{
+	z-index: 2;
+	transform: rotateY(0deg);
+	background-repeat: no-repeat;
+    background-position: center;
+}
+.callToAction-UA .flip .back{
+	transform: rotateY(180deg);
+}
+.callToAction-UA .flip.moreInfo{
+	background-color:#092c74;
+}
+.callToAction-UA .flip.moreInfo .front{
+	background-image:url('../images/dreams-start-here-front.png');
+}
+.callToAction .flip.moreInfo .back, .callToAction .flip.viewBook .back, .callToAction .flip.apply .back, .callToAction-UA .flip.moreInfo .back, .callToAction-UA .flip.viewBook .back, .callToAction-UA .flip.apply .back{
+	background-color:transparent;
+	z-index:10;
+}
+.callToAction-UA .flip.moreInfo .back{
+	background-image:url('../images/dreams-start-here-back.png');
+}
+.callToAction .flip.viewBook .back, .callToAction-UA .flip.viewBook .back{
+	background-image:url('../images/virtual-viewbook.jpg');
+}
+.callToAction .flip.apply .back, .callToAction-UA .flip.apply .back{
+	background-image:url('../images/apply.jpg');
+}
+.callToAction{
+	min-height:400px;
+    background-image: url('../images/parallax.png');
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+	background-color:#000000;
+}
+.modal-content {border-radius:0}
+.video-container {padding-bottom:32.25%;text-align:left;color:#000;}
+.embed-responsive-16by9 {
+    padding-bottom: 52.75%;
+}
+
+@media screen and (max-width: 768px) {
+    footer .dtdaddress {
+	margin-left: 0;
+	margin-top: 20px;
+	border-left: none;
+	padding-left: 0;
+	border-right: none;
+}
+	footer .dtdcopyright {
+		padding-left:0;padding-top:0;
+	}
+	.RI-bg {height:101px}
+	.blue-pane-spacing {padding-top:20px;}
+	.blue2-pane-spacing {padding-top:20px;padding-left:20px;}
+}
