@@ -156,4 +156,21 @@ $(document).ready(function() {
     }
   })
 })
+
+// ----------------------------------------------------------------------
+
+$(window).load(function(){
+  $('.flexslider').flexslider({
+    animation: "fade",
+    slideshowSpeed: 3500,
+    pauseOnAction:true,
+    pauseOnHover:true,
+    controlNav: false,
+    directionNav: true,
+
+    start: function(slider){
+      $('body').removeClass('loading');
+    }
+  });
+});
 // moved from body
