@@ -2440,12 +2440,12 @@ div.ui-dialog-titlebar > .ui-dialog-titlebar-close {
     padding: 10px;
 }
 
-.dnnLoading {
+.claytonLoading {
     background: #fff url(../images/loading.gif) no-repeat center center;
     position: absolute;
     z-index: 9999;
 }
-.dnnPanelLoading {
+.PanelLoading {
     left: 0;
     top: 0;
     width: 100%;
@@ -3288,7 +3288,7 @@ div.ModDNNLinksC .urlControl span.dnnRadiobutton {
 }
 
 /* used to collapse panes without any content in them */
-.DNNEmptyPane {
+.EmptyPane {
     width: 0px;
 }
 
