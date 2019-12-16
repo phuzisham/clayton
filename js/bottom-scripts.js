@@ -141,4 +141,19 @@ Sys.Application.add_init(function() {
 	$create(Sys.UI._UpdateProgress, {"associatedUpdatePanelId":"dnn_ctr137986_View_UP","displayAfter":500,"dynamicLayout":true}, null, null, $get("dnn_ctr137986_View_UP_Prog"));
 });
 //]]>
+
+// ----------------------------------------------------------------------
+
+$(document).ready(function() {
+  // Build array of IDs of videos used in carousels as default behaviour when loading fails
+  var dtdVids = ['dtdcampaignvideo'];
+
+  setTimeout(function() {
+    for (i = 0; i < dtdVids.length; i++) {
+      var vidId = '#' + dtdVids[i];
+
+      $(vidId).load();
+    }
+  })
+})
 // moved from body

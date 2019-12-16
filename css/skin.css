@@ -5761,3 +5761,10 @@ header.mainHeader * {}
 .hiddenSocial {
   display: none;
 }
+
+.ytp-title-text {
+  display:none;
+}
+.ytp-chrome-top ytp-share-button-visible { 
+  display:none;
+}
