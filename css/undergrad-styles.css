@@ -1,0 +1,277 @@
+.clipped {
+  display:none;
+}
+#carousel {
+  background-color: white;
+  margin: 0 auto;
+}
+#carousel .slide .description {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.3em;
+  padding: 0.75em 1.5em;
+  height: auto;
+  max-height: 100px;
+  position: absolute;
+  top: 36%;
+  width: 100%;
+}
+#carousel .slide .description p.title {
+  font-size: 2em;
+  text-transform: uppercase;
+  font-weight: bold;
+  margin-bottom: 0px;
+}
+#carousel .slide .description p.cta {
+  font-size: 1em;
+  margin-bottom: 0;
+}
+#carousel .slide .description .row {
+  background-color: #000000a6;
+  padding: 10px;
+}
+.lentils li.active button {
+  background-color: #fc6719;
+  border-color: #none;
+  color: black;
+  cursor: pointer;
+}
+.lentils button {
+  border: none;
+  background-color: #092c74;
+  font-size: 1.5em;
+  font-weight: bold;
+  color: #fff;
+  cursor: pointer;
+  border-radius: 0px;
+}
+ul.lentils {
+  list-style-type: none;
+  margin-top: 0;
+  float: right;
+}
+#carousel ul {
+  padding: 40px 0;
+  margin-bottom: 0px;
+}
+.lentils li {
+  display: inline-block;
+  margin: 0 0.5em;
+}
+.btn-next {
+  right: 0;
+  border-radius: .25em 0 0 .25em;
+  transform: scaleX(-1);
+}
+.btn-prev, .btn-next {
+  position: absolute;
+  z-index: 20;
+  top: 50%;
+  border: 0;
+  padding: 0;
+  background-color: white;
+  transition: padding .4s ease-out;
+}
+@media (max-width:991px) {
+  #carousel .slide .description {height: auto;}
+}
+
+div#mast-head {
+  background-color: #ddd;
+  text-align:center;
+}
+div#dnn_ctr141461_NavXp_menuRender {
+  margin-right: auto;
+  margin-left: auto;
+  max-width: 1200px;
+}
+.navxp_HB_SimpleText_default .sepBk {
+  border-left: 0px;
+}
+.navxp_HB_SimpleText.navxp_HB_SimpleText_default.NavXpRoot {
+  margin-bottom: 0;
+  margin-left: 0;
+  overflow: hidden;
+  text-align: center;
+  list-style: none;
+  float: none;
+  padding: 10px;
+}
+.navxp_HB_SimpleText_default a.itemL0:link, .navxp_HB_SimpleText_default a.itemL0:visited {
+  position: static;
+  display: inline-block;
+  font-size: 15px;
+  text-align: center;
+  padding-left: 0px;
+  padding-right: 0px;
+}
+@media (max-width:1067px) {
+  .navxp_HB_SimpleText_default a.itemL0:link, .navxp_HB_SimpleText_default a.itemL0:visited {
+    padding-left: 0px;
+    padding-right: 0px;
+    margin: 0 auto;
+  }
+}
+@media (max-width:887px) {
+  .navxp_HB_SimpleText_default a.itemL0:link, .navxp_HB_SimpleText_default a.itemL0:visited {
+    width: 100%;
+  }
+}
+
+@media (max-width:768px) {
+  .heroImage .message {
+    margin-top: 53%;
+  }
+}
+
+.callToAction-UA {padding:0;min-height:0;}
+.callToAction-UA .contentWidth {
+  max-width: 1270px;
+}
+.callToAction-UA .flip .front {
+  backface-visibility: hidden;
+  padding-top: 140px;
+  padding-top: 20%;
+}
+.callToAction-UA .flip h3 {
+  font-size: 24px;
+  font-weight: 400;
+  color: #ffffff;
+  text-shadow: 2px 2px #000;
+  background-color: rgba(0,0,0,0.4);
+  padding:15px 0 15px 0;
+}
+.callToAction-UA .flip, .callToAction-UA .flip .front, .callToAction-UA .flip .back {
+  min-height: 225px;
+  width: 100%;
+  max-width: 405px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.callToAction-UA .flip.apply .front {
+  background-image: url('/Portals/_default/Skins/Clayton_Stamats/Images/PencilIcon.png');
+}
+.callToAction-UA .flip.viewBook .front {
+  background-image: url('/Portals/_default/Skins/Clayton_Stamats/Images/BookIcon.png');
+}
+.callToAction-UA .flip.moreInfo .front {
+  background-image: url('/Portals/_default/Skins/Clayton_Stamats/Images/EnvelopeIcon.png');
+}
+
+.callToAction-UA .flip, .callToAction-UA .flip .front, .callToAction-UA .flip .back {
+    min-height: 340px;
+    width: 100%;
+    max-width: 600px !important;
+    margin-left: auto;
+    margin-right: auto;
+}
+.callToAction .flip .front, .callToAction-UA .flip .front { padding-top:20%;}
+.callToAction-UA {min-height:0;}
+figure {position:relative;margin:0;padding:0;}
+.wp-caption::after {
+content: "";
+position: absolute;
+display: block;
+left: 0;
+top: 0;
+width: 100%;
+height: 100%;
+background: rgba(0, 0, 0, 0) linear-gradient(to bottom, rgba(0, 0, 0, 0) 0px, rgba(0, 0, 0, 0.4) 100%) repeat 0 0;
+z-index: 1;}
+.figure-container {
+    position: relative;
+}
+.figure-image {
+  opacity: 1;
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+
+.figure-middle {
+  transition: .5s ease;
+  opacity: 5;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+  width:100%;
+}
+
+.figure-container:hover .figure-image {
+  opacity: 0.8;
+}
+
+.figurecontainer:hover .figure-middle {
+  opacity: 1;
+}
+.figure-text {
+  background-color: rgba(0,0,0,.4);
+  color: white;
+  font-size: 24px;
+  padding: 16px 32px;
+}
+.figure-text a, .figure-text a:hover {color:#fff;text-decoration:none;    text-shadow: 2px 2px #000;
+}
+
+figcaption {
+position: absolute;
+width: 100%;
+color: #fff;
+left: 0;
+bottom: 39%;
+padding: 0.9em;
+font-weight: 400;
+z-index: 2;
+-webkit-box-sizing: border-box;
+box-sizing: border-box;
+background-color: rgba(0,0,0,.4);
+font-size: 24px;
+text-align: center;
+}
+figcaption a.whitelink {
+color: #fff;
+text-decoration: none;
+}
+.box-hover:hover {cursor:pointer;}
+.box-hover figure {
+background: #000;
+}
+.box-hover figure img {
+opacity: 1;
+-webkit-transition: .3s ease-in-out;
+transition: .3s ease-in-out;
+}
+.box-hover figure:hover img {
+opacity: .8;
+cursor:pointer;
+}
+.callToAction .row, .callToAction-UA .row {
+    margin-bottom: 0;
+}
+.play-button {
+   /*height: 54px;
+    width: 65px;
+    background-color: rgb(0,0,0,.9);
+    border-radius: 5px;
+    position: absolute;
+    left: 40%;*/
+text-align:center;
+}
+.play-button::after {
+    content: "";
+    display: inline-block;
+    /*position: absolute;
+    top: 19.5px;
+    left: 25px;*/
+    margin: 0 auto;
+    border-style: solid;
+    border-width: 9.5px 0 9.5px 17px;
+    border-color: transparent transparent transparent rgba(255, 255, 255, 1);
+}
+@media screen and (max-width: 768px) {
+.box-hover {margin-bottom:20px;}
+}

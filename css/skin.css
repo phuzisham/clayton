@@ -5765,6 +5765,10 @@ header.mainHeader * {}
 .ytp-title-text {
   display:none;
 }
-.ytp-chrome-top ytp-share-button-visible { 
+.ytp-chrome-top ytp-share-button-visible {
   display:none;
+}
+
+.news-padding {
+  padding-bottom:20px;
 }
