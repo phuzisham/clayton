@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en-US">
-<head id="Head"><meta charset="utf-8">
+<head id="Head">
+	<meta charset="utf-8">
 	<meta name="REVISIT-AFTER" content="1 DAYS">
 	<meta name="RATING" content="GENERAL">
 	<meta name="RESOURCE-TYPE" content="DOCUMENT">
@@ -16,6 +17,7 @@
 	<link href="css/bootstrap.css" type="text/css" rel="stylesheet">
 	<link href="css/jquery.smartmenus.bootstrap.css" type="text/css" rel="stylesheet">
 	<link href="css/main_menu.css" type="text/css" rel="stylesheet">
+	<link href="css/skin-two.css" type="text/css" rel="stylesheet">
 	<link href="css/skin.css" type="text/css" rel="stylesheet">
 	<link href="css/container.css" type="text/css" rel="stylesheet">
 	<link href="css/portal.css" type="text/css" rel="stylesheet">
@@ -23,7 +25,6 @@
 	<link href="css/all.css" rel="stylesheet">
 	<link href="css/featherlight.css" type="text/css" rel="stylesheet">
 	<link href="css/flexslider.css" type="text/css" rel="stylesheet">
-	<link href="css/skin-two.css" type="text/css" rel="stylesheet">
 
 	<script src="axd/WebResource.axd" type="text/javascript"></script>
 	<script src="axd/ScriptResource.axd" type="text/javascript"></script>
@@ -50,444 +51,441 @@
 </head>
 
 <body id="Body">
-	<form method="post" action="/" id="Form" enctype="multipart/form-data">
-		<div id="siteWrapper" class="container-fluid">
+	<div id="siteWrapper" class="container-fluid">
 
-			<header>
-				<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PBTQK7D" class="hide"></iframe></noscript>
-				<a href="#content" id="skipToContent">Skip to Content</a>
-				<a href="#footer" id="skipToFooter">Skip to Footer</a>
-				<div class="row">
-					<div class="navbar navbar-default" role="navigation" aria-label="Main University logo and navigation">
+		<header>
+			<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PBTQK7D" class="hide"></iframe></noscript>
+			<a href="#content" id="skipToContent">Skip to Content</a>
+			<a href="#footer" id="skipToFooter">Skip to Footer</a>
+			<div class="row">
+				<div class="navbar navbar-default" role="navigation" aria-label="Main University logo and navigation">
+					<div class="contentWidth">
+						<div id="navbar-top-wrapper">
+							<div id="mobileLogo">
+								<a title="Clayton State" href="/">
+									<img src="images/clayton_logo.jpg" alt="Clayton State Mobile Logo">
+								</a>
+							</div><!-- / #mobileLogo -->
+						</div><!-- / .navbar-top-wrapper -->
+						<!-- Brand and toggle get grouped for better mobile display -->
+						<div class="navbar-header">
+							<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+								<span class="sr-only">Toggle navigation</span>
+								<span class="icon-bar"></span>
+								<span class="icon-bar"></span>
+								<span class="icon-bar"></span>
+							</button>
+						</div><!-- / .navbar-header -->
+					</div><!-- / .contentWidth -->
+					<div id="navbar" class="collapse navbar-collapse pull-right">
 						<div class="contentWidth">
-							<div id="navbar-top-wrapper">
-								<div id="mobileLogo">
-									<a title="Clayton State" href="/">
-										<img src="images/clayton_logo.jpg" alt="Clayton State Mobile Logo">
-									</a>
-								</div><!-- / #mobileLogo -->
-							</div><!-- / .navbar-top-wrapper -->
-							<!-- Brand and toggle get grouped for better mobile display -->
-							<div class="navbar-header">
-								<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-									<span class="sr-only">Toggle navigation</span>
-									<span class="icon-bar"></span>
-									<span class="icon-bar"></span>
-									<span class="icon-bar"></span>
-								</button>
-							</div><!-- / .navbar-header -->
-						</div><!-- / .contentWidth -->
-						<div id="navbar" class="collapse navbar-collapse pull-right">
-							<div class="contentWidth">
-								<div class="mainHead">
-									<div id="logo">
-										<h1>
-											<a title="Clayton State" href="/">
-												<img src="images/clayton_logo.jpg" alt="Clayton State Logo">
-											</a>
-										</h1>
-									</div><!-- / #logo -->
-									<div class="searchArea" role="navigation" aria-label="Secondary CSU Menu">
-										<div id="claytonMenu" style="position: static; left: 0px;">
-											<ul class="nav navbar-nav topLevel sm" data-smartmenus-id="15065261956596768">
-												<li><a href="/students"><span>Students</span></a></li>
-												<li><a href="/faculty-staff"><span>Faculty &amp; Staff</span></a></li>
-												<li><a href="http://apps.clayton.edu/directory"><span>Directory</span></a></li>
-												<li><a href="/giving"><span>Giving</span></a></li>
-												<li><a href="/admissions"><span>Apply</span></a></li>
-											</ul>
-										</div>
-										<div class="searchBox">
-											<button id="CSUSearch" class="search-toggle" aria-label="site search toggle"><span class="fa fa-search"></span></button>
-											<div class="search">
-												<div class="gcse-searchbox-only"></div>
-											</div>
-											<div class="search-mobile">
-												<div class="gcse-searchbox-only"></div>
-											</div>
-										</div><!-- .searchBox -->
-									</div><!-- / .searchArea -->
-								</div><!-- / .mainHead -->
-							</div><!-- / .contentWidth -->
-							<div class="mainMenu" role="navigation" aria-label="Main CSU Menu">
-								<div id="stamatsMenu">
-									<ul class="navTopLevel" role="menubar">
-										<li class="dropdown" role="menuitem">
-											<a href="/about" role="button" id="menu_link_1" aria-owns="menu_sub_1" aria-haspopup="true" aria-expanded="false" class="menuitem topLevel item1">
-												<span class="blueBack">About CSU<span class="caret"></span></span>
-											</a>
-											<ul role="menu" id="menu_sub_1" aria-labelledby="menu_link_1" class="dropdown-menu" style="display: none;">
-												<li role="menuitem"><a href="/about/dreams-made-real" role="button" class="child1"><span>Dreams. Made Real.</span></a></li>
-												<li role="menuitem"><a href="/about/visit" role="button" class="child2"><span>Visit Us</span></a></li>
-												<li role="menuitem"><a href="/about/history-and-traditions" role="button" class="child3"><span>History &amp; Traditions</span></a></li>
-												<li role="menuitem"><a href="/about/fast-facts" role="button" class="child4"><span>Fast Facts</span></a></li>
-												<li role="menuitem"><a href="/about/work-at-clayton-state" role="button" class="child5"><span>Work at CSU</span></a></li>
-												<li role="menuitem"><a href="/about/office-of-the-president" role="button" class="child6"><span>Office of the President</span></a></li>
-												<li role="menuitem"><a href="/about/administration" role="button" class="child7"><span>Administration</span></a></li>
-												<li role="menuitem"><a href="/about/community-outreach" role="button" class="child8"><span>Community Outreach</span></a></li>
-												<li role="menuitem"><a href="http://claytonstate.university-tour.com/?pk_campaign=Web-Drop%20Down%20Menu&pk_source=Web-Drop%20Down%20Menu" target="_blank" role="button" class="child9"><span>Virtual Viewbook</span></a></li>
-												<li><a href="/about/contact-us" role="button" class="child10"><span>Contact Us</span></a></li>
-											</ul>
-										</li>
-										<li class="dropdown" role="menuitem">
-											<a href="/academics" role="button" id="menu_link_2" aria-owns="menu_sub_2" aria-haspopup="true" aria-expanded="false" class="menuitem topLevel item2">
-												<span class="blueBack">Academics<span class="caret"></span></span>
-											</a>
-											<ul role="menu" id="menu_sub_2" aria-labelledby="menu_link_2" class="dropdown-menu" style="display: none;">
-												<li role="menuitem"><a href="/academics/undergraduate-study" role="button" class="child1"><span>Undergraduate Study</span></a></li>
-												<li role="menuitem"><a href="/academics/degrees-majors-and-certificates" role="button" class="child2"><span>Degrees, Majors &amp; Certificates</span></a></li>
-												<li role="menuitem"><a href="/academics/graduate-study" role="button" class="child3"><span>Graduate Study</span></a></li>
-												<li role="menuitem"><a href="/academics/colleges-schools" role="button" class="child4"><span>Colleges &amp; Schools</span></a></li>
-												<li role="menuitem"><a href="/academics/academic-initiatives" role="button" class="child5"><span>Academic Initiatives</span></a></li>
-												<li role="menuitem"><a href="/academics/academic-resources" role="button" class="child6"><span>Academic Resources</span></a></li>
-												<li role="menuitem"><a href="/academics/online-learning" role="button" class="child7"><span>Online Learning</span></a></li>
-												<li role="menuitem"><a href="/admissions/request-information" role="button" class="child8"><span>Request Information</span></a></li>
-											</ul>
-										</li>
-										<li class="dropdown" role="menuitem">
-											<a href="/admissions" role="button" id="menu_link_3" aria-owns="menu_sub_3" aria-haspopup="true" aria-expanded="false" class="menuitem topLevel item3">
-												<span class="blueBack">Admissions<span class="caret"></span></span>
-											</a>
-											<ul role="menu" id="menu_sub_3" aria-labelledby="menu_link_3" class="dropdown-menu" style="display: none;">
-												<li role="menuitem"><a href="/admissions/undergraduate" role="button" class="child1"><span>Undergraduate Admissions</span></a></li>
-												<li role="menuitem"><a href="/graduate/apply" role="button" class="child2"><span>Graduate Admissions</span></a></li>
-												<li role="menuitem"><a href="/ce" role="button" class="child3"><span>Continuing Education</span></a></li>
-												<li role="menuitem"><a href="/admissions/tuition-aid-and-scholarships" role="button" class="child4"><span>Tuition, Aid, &amp; Scholarships</span></a></li>
-												<li role="menuitem"><a href="/admissions/freshman" role="button" class="child5"><span>Freshman</span></a></li>
-												<li role="menuitem"><a href="/admissions/transfer" role="button" class="child6"><span>Transfer</span></a></li>
-												<li role="menuitem"><a href="/admissions/international" role="button" class="child7"><span>International</span></a></li>
-												<li role="menuitem"><a href="/admissions/undergraduate/dual-enrollment" role="button" class="child8"><span>Dual Enrollment</span></a></li>
-												<li role="menuitem"><a href="/admissions/veterans" role="button" class="child9"><span>Veterans</span></a></li>
-												<li role="menuitem"><a href="/admissions/undergraduate/62-and-older" role="button" class="child10"><span>62 &amp; Older</span></a></li>
-												<li role="menuitem"><a href="http://claytonstate.university-tour.com/?pk_campaign=Web-Drop%20Down%20Menu&pk_source=Web-Drop%20Down%20Menu" target="_blank" role="button" class="child11"><span>Virtual Viewbook</span></a></li>
-												<li><a href="/admissions/request-information" role="button" class="child12"><span>Request Information</span></a></li>
-											</ul>
-										</li>
-										<li class="dropdown" role="menuitem">
-											<a href="/student-life" role="button" id="menu_link_4" aria-owns="menu_sub_4" aria-haspopup="true" aria-expanded="false" class="menuitem topLevel item4">
-												<span class="blueBack">Student Life<span class="caret"></span></span>
-											</a>
-											<ul role="menu" id="menu_sub_4" aria-labelledby="menu_link_4" class="dropdown-menu" style="display: none;">
-												<li role="menuitem"><a href="/student-life/books-and-dining" role="button" class="child1"><span>Books &amp; Dining</span></a></li>
-												<li role="menuitem"><a href="/student-life/arts-and-culture" role="button" class="child2"><span>Arts &amp; Culture</span></a></li>
-												<li role="menuitem"><a href="/housing" role="button" class="child3"><span>University Housing</span></a></li>
-												<li role="menuitem"><a href="/campus-life" role="button" class="child4"><span>Student Activities &amp; Resources</span></a></li>
-												<li role="menuitem"><a href="/student-life/parents" role="button" class="child5"><span>Parents</span></a></li>
-												<li role="menuitem"><a href="/student-life/health-and-wellness" role="button" class="child6"><span>Health &amp; Wellness</span></a></li>
-												<li role="menuitem"><a href="/student-life/campus-technology" role="button" class="child7"><span>Campus Technology</span></a></li>
-												<li role="menuitem"><a href="/career" role="button" class="child8"><span>Career Services</span></a></li>
-												<li role="menuitem"><a href="/transportation" role="button" class="child9"><span>Transportation &amp; Parking Services</span></a></li>
-												<li role="menuitem"><a href="/about/administration/student-affairs/lakers-care-and-share" role="button" class="child10"><span>Lakers Care &amp; Share</span></a></li>
-											</ul>
-										</li>
-										<li role="menuitem">
-											<a href="http://www.claytonstatesports.com/" role="button" class="menuitem topLevel item5">
-												<span class="blueBack">Athletics</span>
-											</a>
-										</li>
-										<li class="dropdown" role="menuitem">
-											<a href="/alumni" role="button" id="menu_link_6" aria-owns="menu_sub_6" aria-haspopup="true" aria-expanded="false" class="menuitem topLevel item6">
-												<span class="blueBack">Alumni<span class="caret"></span></span>
-											</a>
-											<ul role="menu" id="menu_sub_6" aria-labelledby="menu_link_6" class="dropdown-menu" style="display: none;">
-												<li role="menuitem"><a href="/alumni/events" role="button" class="child1"><span>Events</span></a></li>
-												<li role="menuitem"><a href="/alumni/get-involved" role="button" class="child2"><span>Get Involved</span></a></li>
-												<li role="menuitem"><a href="/alumni/stay-connected" role="button" class="child3"><span>Stay Connected</span></a></li>
-												<li role="menuitem"><a href="/alumni/alumni-services" role="button" class="child4"><span>Alumni Services</span></a></li>
-												<li role="menuitem"><a href="/alumni/membership" role="button" class="child5"><span>Membership</span></a></li>
-												<li role="menuitem"><a href="/alumni/laker-pride" role="button" class="child6"><span>Laker Pride</span></a></li>
-												<li role="menuitem"><a href="/alumni/giving" role="button" class="child7"><span>Alumni Giving</span></a></li>
-												<li role="menuitem"><a href="/alumni/contact-us" role="button" class="child8"><span>Contact Alumni</span></a></li>
-											</ul>
-										</li>
-									</ul><!-- / .navTopLevel -->
-								</div><!-- / #stamatsMenu -->
-							</div><!-- / .mainMenu -->
-						</div><!-- / #navbar -->
-					</div><!-- / .navbar -->
-				</div><!-- / row -->
-			</header>
-			<!-- end header -->
-
-			<!-- Page Content -->
-			<div id="content">
-				<div class="container-fluid contentWidth" id="mainContent" tabindex="-1">
-					<div class="container-fluid">
-						<div class="claytonModuleContent ">
-							<img alt src="images/vending-machines.jpg">
-						</div>
-					</div>
-					<div id="giveNav-container">
-						<div class="container-fluid">
-							<div class="row">
-								<div class="col-sm-9">
-									<div class="claytonModuleContent ">
-										<h1>Vending</h1>
+							<div class="mainHead">
+								<div id="logo">
+									<h1>
+										<a title="Clayton State" href="/">
+											<img src="images/clayton_logo.jpg" alt="Clayton State Logo">
+										</a>
+									</h1>
+								</div><!-- / #logo -->
+								<div class="searchArea" role="navigation" aria-label="Secondary CSU Menu">
+									<div id="claytonMenu" style="position: static; left: 0px;">
+										<ul class="nav navbar-nav topLevel sm" data-smartmenus-id="15065261956596768">
+											<li><a href="/students"><span>Students</span></a></li>
+											<li><a href="/faculty-staff"><span>Faculty &amp; Staff</span></a></li>
+											<li><a href="http://apps.clayton.edu/directory"><span>Directory</span></a></li>
+											<li><a href="/giving"><span>Giving</span></a></li>
+											<li><a href="/admissions"><span>Apply</span></a></li>
+										</ul>
 									</div>
-								</div>
-							</div>
-						</div>
-					</div>
+									<div class="searchBox">
+										<button id="CSUSearch" class="search-toggle" aria-label="site search toggle"><span class="fa fa-search"></span></button>
+										<div class="search">
+											<div class="gcse-searchbox-only"></div>
+										</div>
+										<div class="search-mobile">
+											<div class="gcse-searchbox-only"></div>
+										</div>
+									</div><!-- .searchBox -->
+								</div><!-- / .searchArea -->
+							</div><!-- / .mainHead -->
+						</div><!-- / .contentWidth -->
+						<div class="mainMenu" role="navigation" aria-label="Main CSU Menu">
+							<div id="stamatsMenu">
+								<ul class="navTopLevel" role="menubar">
+									<li class="dropdown" role="menuitem">
+										<a href="/about" role="button" id="menu_link_1" aria-owns="menu_sub_1" aria-haspopup="true" aria-expanded="false" class="menuitem topLevel item1">
+											<span class="blueBack">About CSU<span class="caret"></span></span>
+										</a>
+										<ul role="menu" id="menu_sub_1" aria-labelledby="menu_link_1" class="dropdown-menu" style="display: none;">
+											<li role="menuitem"><a href="/about/dreams-made-real" role="button" class="child1"><span>Dreams. Made Real.</span></a></li>
+											<li role="menuitem"><a href="/about/visit" role="button" class="child2"><span>Visit Us</span></a></li>
+											<li role="menuitem"><a href="/about/history-and-traditions" role="button" class="child3"><span>History &amp; Traditions</span></a></li>
+											<li role="menuitem"><a href="/about/fast-facts" role="button" class="child4"><span>Fast Facts</span></a></li>
+											<li role="menuitem"><a href="/about/work-at-clayton-state" role="button" class="child5"><span>Work at CSU</span></a></li>
+											<li role="menuitem"><a href="/about/office-of-the-president" role="button" class="child6"><span>Office of the President</span></a></li>
+											<li role="menuitem"><a href="/about/administration" role="button" class="child7"><span>Administration</span></a></li>
+											<li role="menuitem"><a href="/about/community-outreach" role="button" class="child8"><span>Community Outreach</span></a></li>
+											<li role="menuitem"><a href="http://claytonstate.university-tour.com/?pk_campaign=Web-Drop%20Down%20Menu&pk_source=Web-Drop%20Down%20Menu" target="_blank" role="button" class="child9"><span>Virtual Viewbook</span></a></li>
+											<li><a href="/about/contact-us" role="button" class="child10"><span>Contact Us</span></a></li>
+										</ul>
+									</li>
+									<li class="dropdown" role="menuitem">
+										<a href="/academics" role="button" id="menu_link_2" aria-owns="menu_sub_2" aria-haspopup="true" aria-expanded="false" class="menuitem topLevel item2">
+											<span class="blueBack">Academics<span class="caret"></span></span>
+										</a>
+										<ul role="menu" id="menu_sub_2" aria-labelledby="menu_link_2" class="dropdown-menu" style="display: none;">
+											<li role="menuitem"><a href="/academics/undergraduate-study" role="button" class="child1"><span>Undergraduate Study</span></a></li>
+											<li role="menuitem"><a href="/academics/degrees-majors-and-certificates" role="button" class="child2"><span>Degrees, Majors &amp; Certificates</span></a></li>
+											<li role="menuitem"><a href="/academics/graduate-study" role="button" class="child3"><span>Graduate Study</span></a></li>
+											<li role="menuitem"><a href="/academics/colleges-schools" role="button" class="child4"><span>Colleges &amp; Schools</span></a></li>
+											<li role="menuitem"><a href="/academics/academic-initiatives" role="button" class="child5"><span>Academic Initiatives</span></a></li>
+											<li role="menuitem"><a href="/academics/academic-resources" role="button" class="child6"><span>Academic Resources</span></a></li>
+											<li role="menuitem"><a href="/academics/online-learning" role="button" class="child7"><span>Online Learning</span></a></li>
+											<li role="menuitem"><a href="/admissions/request-information" role="button" class="child8"><span>Request Information</span></a></li>
+										</ul>
+									</li>
+									<li class="dropdown" role="menuitem">
+										<a href="/admissions" role="button" id="menu_link_3" aria-owns="menu_sub_3" aria-haspopup="true" aria-expanded="false" class="menuitem topLevel item3">
+											<span class="blueBack">Admissions<span class="caret"></span></span>
+										</a>
+										<ul role="menu" id="menu_sub_3" aria-labelledby="menu_link_3" class="dropdown-menu" style="display: none;">
+											<li role="menuitem"><a href="/admissions/undergraduate" role="button" class="child1"><span>Undergraduate Admissions</span></a></li>
+											<li role="menuitem"><a href="/graduate/apply" role="button" class="child2"><span>Graduate Admissions</span></a></li>
+											<li role="menuitem"><a href="/ce" role="button" class="child3"><span>Continuing Education</span></a></li>
+											<li role="menuitem"><a href="/admissions/tuition-aid-and-scholarships" role="button" class="child4"><span>Tuition, Aid, &amp; Scholarships</span></a></li>
+											<li role="menuitem"><a href="/admissions/freshman" role="button" class="child5"><span>Freshman</span></a></li>
+											<li role="menuitem"><a href="/admissions/transfer" role="button" class="child6"><span>Transfer</span></a></li>
+											<li role="menuitem"><a href="/admissions/international" role="button" class="child7"><span>International</span></a></li>
+											<li role="menuitem"><a href="/admissions/undergraduate/dual-enrollment" role="button" class="child8"><span>Dual Enrollment</span></a></li>
+											<li role="menuitem"><a href="/admissions/veterans" role="button" class="child9"><span>Veterans</span></a></li>
+											<li role="menuitem"><a href="/admissions/undergraduate/62-and-older" role="button" class="child10"><span>62 &amp; Older</span></a></li>
+											<li role="menuitem"><a href="http://claytonstate.university-tour.com/?pk_campaign=Web-Drop%20Down%20Menu&pk_source=Web-Drop%20Down%20Menu" target="_blank" role="button" class="child11"><span>Virtual Viewbook</span></a></li>
+											<li><a href="/admissions/request-information" role="button" class="child12"><span>Request Information</span></a></li>
+										</ul>
+									</li>
+									<li class="dropdown" role="menuitem">
+										<a href="/student-life" role="button" id="menu_link_4" aria-owns="menu_sub_4" aria-haspopup="true" aria-expanded="false" class="menuitem topLevel item4">
+											<span class="blueBack">Student Life<span class="caret"></span></span>
+										</a>
+										<ul role="menu" id="menu_sub_4" aria-labelledby="menu_link_4" class="dropdown-menu" style="display: none;">
+											<li role="menuitem"><a href="/student-life/books-and-dining" role="button" class="child1"><span>Books &amp; Dining</span></a></li>
+											<li role="menuitem"><a href="/student-life/arts-and-culture" role="button" class="child2"><span>Arts &amp; Culture</span></a></li>
+											<li role="menuitem"><a href="/housing" role="button" class="child3"><span>University Housing</span></a></li>
+											<li role="menuitem"><a href="/campus-life" role="button" class="child4"><span>Student Activities &amp; Resources</span></a></li>
+											<li role="menuitem"><a href="/student-life/parents" role="button" class="child5"><span>Parents</span></a></li>
+											<li role="menuitem"><a href="/student-life/health-and-wellness" role="button" class="child6"><span>Health &amp; Wellness</span></a></li>
+											<li role="menuitem"><a href="/student-life/campus-technology" role="button" class="child7"><span>Campus Technology</span></a></li>
+											<li role="menuitem"><a href="/career" role="button" class="child8"><span>Career Services</span></a></li>
+											<li role="menuitem"><a href="/transportation" role="button" class="child9"><span>Transportation &amp; Parking Services</span></a></li>
+											<li role="menuitem"><a href="/about/administration/student-affairs/lakers-care-and-share" role="button" class="child10"><span>Lakers Care &amp; Share</span></a></li>
+										</ul>
+									</li>
+									<li role="menuitem">
+										<a href="http://www.claytonstatesports.com/" role="button" class="menuitem topLevel item5">
+											<span class="blueBack">Athletics</span>
+										</a>
+									</li>
+									<li class="dropdown" role="menuitem">
+										<a href="/alumni" role="button" id="menu_link_6" aria-owns="menu_sub_6" aria-haspopup="true" aria-expanded="false" class="menuitem topLevel item6">
+											<span class="blueBack">Alumni<span class="caret"></span></span>
+										</a>
+										<ul role="menu" id="menu_sub_6" aria-labelledby="menu_link_6" class="dropdown-menu" style="display: none;">
+											<li role="menuitem"><a href="/alumni/events" role="button" class="child1"><span>Events</span></a></li>
+											<li role="menuitem"><a href="/alumni/get-involved" role="button" class="child2"><span>Get Involved</span></a></li>
+											<li role="menuitem"><a href="/alumni/stay-connected" role="button" class="child3"><span>Stay Connected</span></a></li>
+											<li role="menuitem"><a href="/alumni/alumni-services" role="button" class="child4"><span>Alumni Services</span></a></li>
+											<li role="menuitem"><a href="/alumni/membership" role="button" class="child5"><span>Membership</span></a></li>
+											<li role="menuitem"><a href="/alumni/laker-pride" role="button" class="child6"><span>Laker Pride</span></a></li>
+											<li role="menuitem"><a href="/alumni/giving" role="button" class="child7"><span>Alumni Giving</span></a></li>
+											<li role="menuitem"><a href="/alumni/contact-us" role="button" class="child8"><span>Contact Alumni</span></a></li>
+										</ul>
+									</li>
+								</ul><!-- / .navTopLevel -->
+							</div><!-- / #stamatsMenu -->
+						</div><!-- / .mainMenu -->
+					</div><!-- / #navbar -->
+				</div><!-- / .navbar -->
+			</div><!-- / row -->
+		</header>
+		<!-- end header -->
 
+		<!-- Page Content -->
+		<div id="content">
+			<div class="container-fluid contentWidth" id="mainContent" tabindex="-1">
+				<div class="container-fluid">
+					<div class="claytonModuleContent ">
+						<img alt src="images/vending-machines.jpg">
+					</div>
+				</div>
+				<div id="giveNav-container">
 					<div class="container-fluid">
 						<div class="row">
-							<div class="col-sm-3">
-								<div class="claytonModuleContent ModavtNavXpC">
-									<div class="navxp_VP_Outlook navxp_VP_Outlook_Clayton_State NavXpRoot">
-										<div class="itemL0_container">
-											<a class="itemL0 nxp-first nxp-last nxp-lvl0 nxp-link nxp-no-child" href="/auxservices">Auxiliary Services Home</a>
-										</div>
-									</div>
-								</div>
-							</div>
-							<div class="col-sm-6">
+							<div class="col-sm-9">
 								<div class="claytonModuleContent ">
-									<p style="text-align: center;"> <img alt src="images/Vending%20payment%20option%20graphic.png"></p>
-									<h2>Refunds or Problems</h2>
-									<h4>In Person</h4>
-									<p>Vending refunds are issued in person at the LakerCard Center. Contact the LakerCard Center at (678) 466-4215 or <a href="mailto:lakercard@clayton.edu">LakerCard@Clayton.edu</a></p>
-									<h4>Online</h4>
-									<p>Refund requests may be requested online. Go to the SWAN, click on the Essentials Tab, and look for the Vending Refund Channel. Refunds will be issued as deposits to your LakerCard; visit the channel for more details.</p>
-								</div>
-								<div class="claytonModuleContent">
-									<h2>Vending Locations</h2>
-									<table class="border">
-										<tbody>
-											<tr>
-												<th scope="col">Building</th>
-												<th scope="col">Area</th>
-												<th scope="col">Snack</th>
-												<th scope="col">Beverage</th>
-												<th scope="col">Coffee</th>
-											</tr>
-											<tr>
-												<th scope="row">University Center</th>
-												<td>3rd Floor</td>
-												<td>✔ </td>
-												<td>✔ </td>
-												<td>&nbsp; </td>
-											</tr>
-											<tr>
-												<th scope="row">Magnolia Hall</th>
-												<td>Lobby </td>
-												<td>✔ </td>
-												<td>✔ </td>
-												<td>&nbsp;</td>
-											</tr>
-											<tr>
-												<th scope="row">Arts &amp; Sciences</th>
-												<td>2nd Floor</td>
-												<td>✔ </td>
-												<td>✔ </td>
-												<td>&nbsp;</td>
-											</tr>
-											<tr>
-												<th scope="row">Clayton Hall</th>
-												<td>1st Floor</td>
-												<td>✔ </td>
-												<td>✔ </td>
-												<td>&nbsp;</td>
-											</tr>
-											<tr>
-												<th scope="row">Faculty Hall</th>
-												<td>Lobby</td>
-												<td>&nbsp;</td>
-												<td>✔ </td>
-												<td>&nbsp;</td>
-											</tr>
-											<tr>
-												<th scope="row">Library</th>
-												<td>1st Floor</td>
-												<td>✔ </td>
-												<td>✔ </td>
-												<td>&nbsp;</td>
-											</tr>
-											<tr>
-												<th scope="row">Music</th>
-												<td>1st Floor</td>
-												<td>✔ </td>
-												<td>✔ </td>
-												<td>&nbsp;</td>
-											</tr>
-											<tr>
-												<th scope="row">Continuing Education</th>
-												<td>1st Floor</td>
-												<td>✔ </td>
-												<td>✔ </td>
-												<td>✔ </td>
-											</tr>
-											<tr>
-												<th scope="row">Facilities Maintenance Building</th>
-												<td>&nbsp;</td>
-												<td>✔ </td>
-												<td>✔ </td>
-												<td>&nbsp;</td>
-											</tr>
-											<tr>
-												<th scope="row">Edgewater Hall</th>
-												<td>1st Floor</td>
-												<td>✔ </td>
-												<td>✔ </td>
-												<td>&nbsp;</td>
-											</tr>
-											<tr>
-												<th scope="row">Arbor Hall</th>
-												<td>Break Room</td>
-												<td>✔ </td>
-												<td>✔ </td>
-												<td>&nbsp;</td>
-											</tr>
-											<tr>
-												<th scope="row">Peachtree City Campus</th>
-												<td> Study Lounge</td>
-												<td> ✔ </td>
-												<td>✔ </td>
-												<td>&nbsp;</td>
-											</tr>
-											<tr>
-												<th scope="row">Lucy Huie Hall</th>
-												<td> Break Room</td>
-												<td> </td>
-												<td>✔ </td>
-												<td>&nbsp;</td>
-											</tr>
-											<tr>
-												<th scope="row">Lakeview Science and Discovery</th>
-												<td> 1st Floor</td>
-												<td>✔ </td>
-												<td>✔ </td>
-												<td>&nbsp;</td>
-											</tr>
-										</tbody>
-									</table>
+									<h1>Vending</h1>
 								</div>
 							</div>
 						</div>
 					</div>
-					<div id="work-container">
-						<div class="container-fluid">
-							<div class="row">
-								<div class="col-sm-6">
-									<div class="main-news-heading">
-										<h2>
-											<em class="fa fa-newspaper-o fa-lg"></em>
-											<a href="http://www.clayton.edu/auxservices/DesktopModules/News/API/News.rss?TabId=37522&amp;ModuleId=100050" title="Get Aggregated RSS" target="_blank" class="float-right-icon rss">&nbsp;</a>
-											<span class="Head">Auxiliary Services News</span>
-										</h2>
+				</div>
+
+				<div class="container-fluid">
+					<div class="row">
+						<div class="col-sm-3">
+							<div class="claytonModuleContent ModavtNavXpC">
+								<div class="navxp_VP_Outlook navxp_VP_Outlook_Clayton_State NavXpRoot">
+									<div class="itemL0_container">
+										<a class="itemL0 nxp-first nxp-last nxp-lvl0 nxp-link nxp-no-child" href="/auxservices">Auxiliary Services Home</a>
 									</div>
 								</div>
-								<div class="col-sm-3">
-									<div class="main-news-heading">
-										<h2>
-											<em class="fa fa-newspaper-o fa-lg"></em>
-											<span class="Head">Quick Links</span>
-										</h2>
-									</div>
-									<div class="claytonModuleContent ">
-										<p><a href="http://www.clayton.edu/auxservices/info">Auxiliary Services Information</a></p>
-										<p><a href=" https://jfe.qualtrics.com/form/SV_cBXDpHGrVKbbL49">Tell us how we're doing!</a></p>
-									</div>
+							</div>
+						</div>
+						<div class="col-sm-6">
+							<div class="claytonModuleContent ">
+								<p style="text-align: center;"> <img alt src="images/Vending%20payment%20option%20graphic.png"></p>
+								<h2>Refunds or Problems</h2>
+								<h4>In Person</h4>
+								<p>Vending refunds are issued in person at the LakerCard Center. Contact the LakerCard Center at (678) 466-4215 or <a href="mailto:lakercard@clayton.edu">LakerCard@Clayton.edu</a></p>
+								<h4>Online</h4>
+								<p>Refund requests may be requested online. Go to the SWAN, click on the Essentials Tab, and look for the Vending Refund Channel. Refunds will be issued as deposits to your LakerCard; visit the channel for more details.</p>
+							</div>
+							<div class="claytonModuleContent">
+								<h2>Vending Locations</h2>
+								<table class="border">
+									<tbody>
+										<tr>
+											<th scope="col">Building</th>
+											<th scope="col">Area</th>
+											<th scope="col">Snack</th>
+											<th scope="col">Beverage</th>
+											<th scope="col">Coffee</th>
+										</tr>
+										<tr>
+											<th scope="row">University Center</th>
+											<td>3rd Floor</td>
+											<td>✔ </td>
+											<td>✔ </td>
+											<td>&nbsp; </td>
+										</tr>
+										<tr>
+											<th scope="row">Magnolia Hall</th>
+											<td>Lobby </td>
+											<td>✔ </td>
+											<td>✔ </td>
+											<td>&nbsp;</td>
+										</tr>
+										<tr>
+											<th scope="row">Arts &amp; Sciences</th>
+											<td>2nd Floor</td>
+											<td>✔ </td>
+											<td>✔ </td>
+											<td>&nbsp;</td>
+										</tr>
+										<tr>
+											<th scope="row">Clayton Hall</th>
+											<td>1st Floor</td>
+											<td>✔ </td>
+											<td>✔ </td>
+											<td>&nbsp;</td>
+										</tr>
+										<tr>
+											<th scope="row">Faculty Hall</th>
+											<td>Lobby</td>
+											<td>&nbsp;</td>
+											<td>✔ </td>
+											<td>&nbsp;</td>
+										</tr>
+										<tr>
+											<th scope="row">Library</th>
+											<td>1st Floor</td>
+											<td>✔ </td>
+											<td>✔ </td>
+											<td>&nbsp;</td>
+										</tr>
+										<tr>
+											<th scope="row">Music</th>
+											<td>1st Floor</td>
+											<td>✔ </td>
+											<td>✔ </td>
+											<td>&nbsp;</td>
+										</tr>
+										<tr>
+											<th scope="row">Continuing Education</th>
+											<td>1st Floor</td>
+											<td>✔ </td>
+											<td>✔ </td>
+											<td>✔ </td>
+										</tr>
+										<tr>
+											<th scope="row">Facilities Maintenance Building</th>
+											<td>&nbsp;</td>
+											<td>✔ </td>
+											<td>✔ </td>
+											<td>&nbsp;</td>
+										</tr>
+										<tr>
+											<th scope="row">Edgewater Hall</th>
+											<td>1st Floor</td>
+											<td>✔ </td>
+											<td>✔ </td>
+											<td>&nbsp;</td>
+										</tr>
+										<tr>
+											<th scope="row">Arbor Hall</th>
+											<td>Break Room</td>
+											<td>✔ </td>
+											<td>✔ </td>
+											<td>&nbsp;</td>
+										</tr>
+										<tr>
+											<th scope="row">Peachtree City Campus</th>
+											<td> Study Lounge</td>
+											<td> ✔ </td>
+											<td>✔ </td>
+											<td>&nbsp;</td>
+										</tr>
+										<tr>
+											<th scope="row">Lucy Huie Hall</th>
+											<td> Break Room</td>
+											<td> </td>
+											<td>✔ </td>
+											<td>&nbsp;</td>
+										</tr>
+										<tr>
+											<th scope="row">Lakeview Science and Discovery</th>
+											<td> 1st Floor</td>
+											<td>✔ </td>
+											<td>✔ </td>
+											<td>&nbsp;</td>
+										</tr>
+									</tbody>
+								</table>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div id="work-container">
+					<div class="container-fluid">
+						<div class="row">
+							<div class="col-sm-6">
+								<div class="main-news-heading">
+									<h2>
+										<em class="fa fa-newspaper-o fa-lg"></em>
+										<span class="Head">Auxiliary Services News</span>
+									</h2>
+								</div>
+							</div>
+							<div class="col-sm-3">
+								<div class="main-news-heading">
+									<h2>
+										<em class="fa fa-newspaper-o fa-lg"></em>
+										<span class="Head">Quick Links</span>
+									</h2>
+								</div>
+								<div class="claytonModuleContent ">
+									<p><a href="http://www.clayton.edu/auxservices/info">Auxiliary Services Information</a></p>
+									<p><a href=" https://jfe.qualtrics.com/form/SV_cBXDpHGrVKbbL49">Tell us how we're doing!</a></p>
 								</div>
 							</div>
 						</div>
 					</div>
 				</div>
 			</div>
-			<!-- End Page Content -->
+		</div>
+		<!-- End Page Content -->
 
-			<!-- Footer -->
-			<footer class="mainFooter row" id="footer">
-				<div class="col-xs-12">
-					<div class="contentWidth">
-						<div class="col-xs-12 col-sm-4 addressInfo">
-							<div class="address">
-								<a class="addressIcon" href="https://www.google.com/maps/place/2000+Clayton+State+Blvd,+Morrow,+GA+30260/@33.594272,-84.33001,17z/data=!4m5!3m4!1s0x88f4fec12ccd03d3:0xd003171741f1295e!8m2!3d33.5944329!4d-84.330761"><span>Directions to Clayton State University</span></a>
-								<span>2000 Clayton State Boulevard<br>Morrow, GA 30260</span>
-							</div><!-- / .address -->
-							<div class="phone">
-								<a class="phoneIcon" href="tel:6784664000"><span>Call Clayton State University</span></a>
-								<span>(678) 466-4000</span>
-							</div><!-- / .phone -->
-						</div><!-- / .col-sm-4 -->
-						<div class="col-xs-12 col-sm-7 footerNav">
-							<div class="row">
-								<div class="col-xs-12">
-									<ul class="footerMenu">
-										<li><a href="/A-Z-Index"><span>A-Z Index</span></a></li>
-										<li><a href="/privacy"><span>Privacy</span></a></li>
-										<li><a href="/sacs"><span>Accreditation</span></a></li>
-										<li><a href="/offices-departments"><span>Offices/Depts	</span></a></li>
-										<li><a href="/about/contact-us"><span>Contact Info</span></a></li>
-										<li><a href="/about/campus-and-instructional-sites"><span>Maps &amp; Directions</span></a></li>
-										<li><a href="/equal-opportunity"><span>Equal Opportunity</span></a></li>
-										<li><a href="/calendar"><span>Calendar</span></a></li>
-										<li><a href="/laker-connection"><span>Laker Connection</span></a></li>
-										<li><a href="/news"><span>Laker Newsroom</span></a></li>
-										<li><a href="/accessibility"><span>Accessibility</span></a></li>
-										<li><a href="/ethics-and-integrity"><span>Ethics &amp; Integrity</span></a></li>
-										<li><a href="https://gbi.georgia.gov/documents/human-trafficking-notice" target="_blank"><span>Human Trafficking Notice</span></a></li>
-										<li><a href="https://claytonstate.qualtrics.com/jfe/form/SV_eVFAbZTnKAmt6yF" target="_blank"><span>Report a Website Issue</span></a></li>
-										<li><a href="https://claytonstate.qualtrics.com/jfe/form/SV_6tlsehKTU9DLe4t" target="_blank"><span>New Website Feedback</span></a></li>
-									</ul><!-- / .footerMenu -->
-								</div>
+		<!-- Footer -->
+		<footer class="mainFooter row" id="footer">
+			<div class="col-xs-12">
+				<div class="contentWidth">
+					<div class="col-xs-12 col-sm-4 addressInfo">
+						<div class="address">
+							<a class="addressIcon" href="https://www.google.com/maps/place/2000+Clayton+State+Blvd,+Morrow,+GA+30260/@33.594272,-84.33001,17z/data=!4m5!3m4!1s0x88f4fec12ccd03d3:0xd003171741f1295e!8m2!3d33.5944329!4d-84.330761"><span>Directions to Clayton State University</span></a>
+							<span>2000 Clayton State Boulevard<br>Morrow, GA 30260</span>
+						</div><!-- / .address -->
+						<div class="phone">
+							<a class="phoneIcon" href="tel:6784664000"><span>Call Clayton State University</span></a>
+							<span>(678) 466-4000</span>
+						</div><!-- / .phone -->
+					</div><!-- / .col-sm-4 -->
+					<div class="col-xs-12 col-sm-7 footerNav">
+						<div class="row">
+							<div class="col-xs-12">
+								<ul class="footerMenu">
+									<li><a href="/A-Z-Index"><span>A-Z Index</span></a></li>
+									<li><a href="/privacy"><span>Privacy</span></a></li>
+									<li><a href="/sacs"><span>Accreditation</span></a></li>
+									<li><a href="/offices-departments"><span>Offices/Depts	</span></a></li>
+									<li><a href="/about/contact-us"><span>Contact Info</span></a></li>
+									<li><a href="/about/campus-and-instructional-sites"><span>Maps &amp; Directions</span></a></li>
+									<li><a href="/equal-opportunity"><span>Equal Opportunity</span></a></li>
+									<li><a href="/calendar"><span>Calendar</span></a></li>
+									<li><a href="/laker-connection"><span>Laker Connection</span></a></li>
+									<li><a href="/news"><span>Laker Newsroom</span></a></li>
+									<li><a href="/accessibility"><span>Accessibility</span></a></li>
+									<li><a href="/ethics-and-integrity"><span>Ethics &amp; Integrity</span></a></li>
+									<li><a href="https://gbi.georgia.gov/documents/human-trafficking-notice" target="_blank"><span>Human Trafficking Notice</span></a></li>
+									<li><a href="https://claytonstate.qualtrics.com/jfe/form/SV_eVFAbZTnKAmt6yF" target="_blank"><span>Report a Website Issue</span></a></li>
+									<li><a href="https://claytonstate.qualtrics.com/jfe/form/SV_6tlsehKTU9DLe4t" target="_blank"><span>New Website Feedback</span></a></li>
+								</ul><!-- / .footerMenu -->
 							</div>
-						</div><!-- / .col-sm-8 -->
-						<div class="col-xs-12 footerLogo">
-							<img src="images/claytonstate_logo_white.png" alt="Clayton State University Logo">
-						</div><!-- / .col-xs-12 -->
-						<div class="col-xs-12 text-right slideIn leftSlideIn footerMotto">
-							<img src="images/dreams_white.jpg" alt="Dreams Made Real">
-						</div><!-- / .col-xs-12 -->
-						<div class="col-xs-12">
-							<div class="copyright">
-								<span>© 2019 Clayton State University  |  A Senior Unit of the <a href="http://www.usg.edu/" target="_blank" class="footer-link">University System of Georgia</a></span>
-							</div><!-- / .copyright -->
-						</div><!-- / .col-xs-12 -->
-						<ul class="socialMedia">
-							<li>
-								<a href="https://twitter.com/ClaytonState" target="_blank">
-									<span class="twitter blackBack"><p class="hiddenSocial">Twitter</p></span>
-								</a>
-							</li>
-							<li>
-								<a href="https://www.instagram.com/claytonstateuniv/" target="_blank">
-									<span class="instagram blackBack"><p class="hiddenSocial">Instagram</p></span>
-								</a>
-							</li>
-							<li>
-								<a href="https://www.facebook.com/ClaytonStateUniversity/" target="_blank">
-									<span class="facebook blackBack"><p class="hiddenSocial">Facebook</p></span>
-								</a>
-							</li>
-							<li>
-								<a href="https://www.youtube.com/user/ClaytonSTNews" target="_blank">
-									<span class="youtube blackBack"><p class="hiddenSocial">YouTube</p></span>
-								</a>
-							</li>
-						</ul><!-- / .socialMedia -->
-					</div><!-- / .contentWidth -->
+						</div>
+					</div><!-- / .col-sm-8 -->
+					<div class="col-xs-12 footerLogo">
+						<img src="images/claytonstate_logo_white.png" alt="Clayton State University Logo">
+					</div><!-- / .col-xs-12 -->
+					<div class="col-xs-12 text-right slideIn leftSlideIn footerMotto">
+						<img src="images/dreams_white.jpg" alt="Dreams Made Real">
+					</div><!-- / .col-xs-12 -->
+					<div class="col-xs-12">
+						<div class="copyright">
+							<span>© 2019 Clayton State University  |  A Senior Unit of the <a href="http://www.usg.edu/" target="_blank" class="footer-link">University System of Georgia</a></span>
+						</div><!-- / .copyright -->
+					</div><!-- / .col-xs-12 -->
+					<ul class="socialMedia">
+						<li>
+							<a href="https://twitter.com/ClaytonState" target="_blank">
+								<span class="twitter blackBack"><p class="hiddenSocial">Twitter</p></span>
+							</a>
+						</li>
+						<li>
+							<a href="https://www.instagram.com/claytonstateuniv/" target="_blank">
+								<span class="instagram blackBack"><p class="hiddenSocial">Instagram</p></span>
+							</a>
+						</li>
+						<li>
+							<a href="https://www.facebook.com/ClaytonStateUniversity/" target="_blank">
+								<span class="facebook blackBack"><p class="hiddenSocial">Facebook</p></span>
+							</a>
+						</li>
+						<li>
+							<a href="https://www.youtube.com/user/ClaytonSTNews" target="_blank">
+								<span class="youtube blackBack"><p class="hiddenSocial">YouTube</p></span>
+							</a>
+						</li>
+					</ul><!-- / .socialMedia -->
+				</div><!-- / .contentWidth -->
+			</div><!-- / .col-xs-12 -->
+			<div class="colorHolder">
+				<div class="col-xs-12">
+					<div class="row">
+						<div class="color1 col-xs-4"></div>
+						<div class="color2 col-xs-4"></div>
+						<div class="color3 col-xs-4"></div>
+					</div><!-- / .row -->
 				</div><!-- / .col-xs-12 -->
-				<div class="colorHolder">
-					<div class="col-xs-12">
-						<div class="row">
-							<div class="color1 col-xs-4"></div>
-							<div class="color2 col-xs-4"></div>
-							<div class="color3 col-xs-4"></div>
-						</div><!-- / .row -->
-					</div><!-- / .col-xs-12 -->
-					<div class="col-xs-12">
-						<div class="row">
-							<div class="color4 col-xs-4"></div>
-							<div class="color5 col-xs-4"></div>
-							<div class="color6 col-xs-4"></div>
-						</div><!-- / .row -->
-					</div><!-- / .col-xs-12 -->
-				</div><!-- / .colorHolder -->
-			</footer>
-			<!-- end footer -->
+				<div class="col-xs-12">
+					<div class="row">
+						<div class="color4 col-xs-4"></div>
+						<div class="color5 col-xs-4"></div>
+						<div class="color6 col-xs-4"></div>
+					</div><!-- / .row -->
+				</div><!-- / .col-xs-12 -->
+			</div><!-- / .colorHolder -->
+		</footer>
+		<!-- end footer -->
 
-		</div><!-- /.SiteWrapper -->
-		<input name="ScrollTop" type="hidden" id="ScrollTop">
-	</form>
+	</div><!-- /.SiteWrapper -->
+	<input name="ScrollTop" type="hidden" id="ScrollTop">
 </body>
 </html>
