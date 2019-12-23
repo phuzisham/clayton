@@ -1,0 +1,135 @@
+/*Shadow style for images*/
+/*.shadow {-webkit-border-radius:8px;-moz-border-radius:8px;border-radius:8px;-webkit-box-shadow: #666 0px 1px 8px;-moz-box-shadow: #666 0px 1px 8px;box-shadow: #666 0px 1px 8px;}
+.shadow-15 {-webkit-border-radius: 15px;-moz-border-radius: 15px;border-radius: 15px;-webkit-box-shadow: #666 0px 1px 8px;-moz-box-shadow: #666 0px 1px 8px;box-shadow: #666 0px 1px 8px;}*/
+/*Main Story Accordion*/
+#features {margin:0 0 20px 0;}
+ul#featured-stories {margin:0;padding:0;-webkit-border-radius: 15px;-moz-border-radius: 15px;border-radius: 15px;-webkit-box-shadow: #666 0px 1px 8px;-moz-box-shadow: #666 0px 1px 8px;box-shadow: #666 0px 1px 8px;}
+#featured-stories li {position:relative;margin:0;padding:0;}
+#featured-stories div.slider-bg {}
+#featured-stories div.slider-info {}
+#featured-stories div.slider-info strong {font-size:18px;color:#fff;margin-bottom:5px;}
+#featured-stories div.slider-info p {display:none;font-size:.85em;line-height:14px;color:#fff;margin:0 !important;width:85%;}
+#featured-stories li.slider-open div.slider-bg {background:url(../images/text-bg.png) repeat top left;top:210px;height:80px;width:650px;left:0;position:absolute;z-index:10;}
+#featured-stories li.slider-open div.slider-info {width:570px;top:195px;height:73px;left:0;position:absolute;z-index:15;padding:20px 10px 0 10px;}
+#featured-stories li.slider-open div.slider-info strong {font-size:20px;}
+#featured-stories li.slider-open div.slider-info p {display:block;}
+/*Laker News Room RSS Feed Icon*/
+.float-right-icon {float:right;margin:0;padding:0;vertical-align:bottom;}
+/*Laker News Room Feed*/
+/*.news1 {margin:0 0 35px 0;clear:both;}
+.news1-image {float:left;margin:0;padding:3px 0 0 0;display:block;max-width:100%;}
+.news1-item {margin:5px 0 3px 100px;padding:0;}
+.news1-item h3 {font-size:1.5em;margin:6px 0 0 0;padding:0px;font-weight:bold;color:#092c74;line-height:17px;}
+.news1-item a:link h3, .news1-item a:active h3, .news1-item a:visited h3. .news1-item a h3 {color:#092c74;text-decoration:none;}
+.news1-item a:hover h3, .news1-item a:hover {text-decoration:none;color:#fc6719;}
+.news1-item p {color:#333;font-size:1.3em;margin:5px 0 0 0;padding:0px;}
+.news1-image img {text-decoration:none;-moz-box-shadow: 0 0 8px #ccc;-webkit-box-shadow: 0 0 8px #ccc;box-shadow: 0 0 8px #ccc;border: solid #fff 3px;background: #fff;max-width:100%;}
+.news1-clear {clear:both;font-size:0px;height:0px}*/
+.news1 {margin:0 0 35px 0;clear:both;}
+.news1-image {float:left;margin:0;padding:3px 0 0 0;display:block;max-width:100%;}
+.news1-item {margin:5px 0 3px 100px;padding:0;}
+.news1-item h3 {font-size:1.5em;margin:6px 0 0 0;padding:0px;font-weight:bold;color:#092c74;line-height:17px;}
+.news1-item a h3, .news1-item a:link h3, .news1-item a:active h3, .news1-item a:visited h3, .news1-item a {color:#092c74;text-decoration:none;}
+.news1-item a:hover h3, .news1-item a:hover {text-decoration:none;color:#fc6719;}
+.news1-item p {color:#333;font-size:1.3em;margin:5px 0 0 0;padding:0px;}
+.news1-image img {text-decoration:none;-moz-box-shadow: 0 0 8px #ccc;-webkit-box-shadow: 0 0 8px #ccc;box-shadow: 0 0 8px #ccc;border: solid #fff 3px;background: #fff;max-width:100%;}
+.news1-clear {clear:both;font-size:0px;height:0px}
+
+.newsroomFeature {margin:0 0 35px 0;}
+.newsroomFeature-image {float:left;/*display:block;max-width:100%;width:27%;*/width:30%;padding-right:10px;}
+.newsroomFeature-item {/*margin:5px 0 3px 110px;*/width:60%;float:right;}
+.newsroomFeature-item h3 {font-size:.8em;margin:0;padding:0px;font-weight:bold;color:#092c74;line-height:17px;}
+.newsroomFeature-item a h3, .newsroomFeature-item a:link h3, .newsroomFeature-item a:active h3, .newsroomFeature-item a:visited h3, .newsroomFeature-item a {color:#092c74;text-decoration:none;font-size:1em;}
+.newsroomFeature-item a:hover h3, .newsroomFeature-item a:hover {text-decoration:none;color:#fc6719;}
+.newsroomFeature-item p {color:#333;font-size:.8em;margin:0;padding:0px;}
+.newsroomFeature-image img {text-decoration:none;-moz-box-shadow: 0 0 8px #ccc;-webkit-box-shadow: 0 0 8px #ccc;box-shadow: 0 0 8px #ccc;border: solid #fff 3px;background: #fff;max-width:100%;}
+.newsroomFeature-clear {clear:both;font-size:0px;height:0px}
+
+.news-title-library h4 a { color:#092c74;font-size:1em;margin:0; }
+.news-details-library p {font-size:.9em;}
+
+.theatreFeaturedShow {margin:0;}
+.theatreFeaturedShow-image {float:left;/*display:block;max-width:100%;width:27%;*/width:20%;padding-right:10px;}
+.theatreFeaturedShow-item {/*margin:5px 0 3px 110px;*/width:75%;float:right;}
+.theatreFeaturedShow-item h3 {font-size:1.5em;margin:0;padding:0px;font-weight:bold;color:#092c74;line-height:17px;}
+.theatreFeaturedShow-item a h3, .theatreFeaturedShow-item a:link h3, .theatreFeaturedShow-item a:active h3, .theatreFeaturedShow-item a:visited h3, .theatreFeaturedShow-item a {color:#092c74;text-decoration:none;font-size:1.5em;padding-bottom:8px;padding-top:5px;}
+.theatreFeaturedShow-item a:hover h3, .theatreFeaturedShow-item a:hover {text-decoration:none;color:#fc6719;}
+.theatreFeaturedShow-item p {color:#333;font-size:1.3em;margin:0;padding:0px;}
+.theatreFeaturedShow-image img {text-decoration:none;-moz-box-shadow: 0 0 8px #ccc;-webkit-box-shadow: 0 0 8px #ccc;box-shadow: 0 0 8px #ccc;border: solid #fff 3px;background: #fff;max-width:100%;}
+.theatreFeaturedShow-clear {clear:both;font-size:0px;height:0px}
+
+.universityHomepage {margin:0 0 35px 0;}
+.universityHomepage-image {float:left;/*display:block;max-width:100%;*/width:20%;padding-right:10px;}
+.universityHomepage-item {/*margin:5px 0 3px 110px;*/width:75%;float:right;}
+.universityHomepage-item h3 {font-size:1em;margin:0;padding:0px;font-weight:bold;color:#092c74;line-height:17px;}
+.universityHomepage-item a h3, .universityHomepage-item a:link h3, .universityHomepage-item a:active h3, .universityHomepage-item a:visited h3, .universityHomepage-item a {color:#092c74;text-decoration:none;}
+.universityHomepage-item a:hover h3, .universityHomepage-item a:hover {text-decoration:none;color:#fc6719;}
+.universityHomepage-item p {color:#333;font-size:1em;margin:0;padding:0px;}
+.universityHomepage-image img {text-decoration:none;-moz-box-shadow: 0 0 8px #ccc;-webkit-box-shadow: 0 0 8px #ccc;box-shadow: 0 0 8px #ccc;border: solid #fff 3px;background: #fff;max-width:100%;}
+.universityHomepage-clear {clear:both;font-size:0px;height:0px}
+
+
+.otherfeatures {margin:0 0 35px 0;}
+.otherfeatures-image {float:left;padding-right:0.5em;}
+.otherfeatures-item {margin-top:0; }
+.otherfeatures-item p {color:#333;font-size:.8em;margin:0;padding:0;}
+.otherfeatures-item a h3, .otherfeatures-item a:link h3, .otherfeatures-item a:active h3, .otherfeatures-item a:visited h3, .otherfeatures-item a {font-size:1em;color:#092c74;text-decoration:none;}
+.otherfeatures-item a:hover h3, .otherfeatures-item a:hover {text-decoration:none;color:#fc6719;}
+.otherfeatures-item h6 {display:none;}
+
+.mainfeatures {;
+background-color: #f0f4f8;
+    padding-top: 5px;
+    padding-right: 5px;
+    padding-bottom: 5px;
+    padding-left: 5px;
+    -webkit-box-shadow:#CCC 0 1px 5px;
+    box-shadow: #ccc 0 1px 5px;
+	background-color:#fff;
+	padding:10px;}
+.mainfeatures-image {float:left;padding-right:5px;width:45%;padding-right:10px;}
+.mainfeatures-item {margin-top:0;float:right;width:54%; }
+.mainfeatures-item p {color:#333;font-size:.8em;margin:0;padding-right:10px;}
+.mainfeatures-item a h3, .mainfeatures-item a:link h3, .mainfeatures-item a:active h3, .mainfeatures-item a:visited h3, .mainfeatures-item a,
+	.mainfeatures-heading a h3, .mainfeatures-heading a:link h3, .mainfeatures-heading a:active h3, .mainfeatures-heading a:visited h3, .mainfeatures-heading a {color:#092c74;text-decoration:none;}
+.mainfeatures-item a:hover h3, .mainfeatures-item a:hover, .mainfeatures-heading a:hover h3, .mainfeatures-heading a:hover {text-decoration:none;color:#fc6719;}
+.mainfeatures-item h6 {display:none;}
+.mainfeatures-item a h3 {font-size:1.3em;text-align:center;letter-spacing:.5px;}
+
+/*Updated Homepage Calendar Feeds*/
+.homepageFeed {overflow:hidden;font-size:1.2em;padding-bottom:15px;}
+.homepageFeed-date, .homepageFeed-item {padding-left:0;padding-right:0;}
+.homepageFeed-date {font-weight:bold;}
+
+
+.feed1 {margin:0 0 12px 0;clear:both;}
+.feed1-date {float:left; margin:0; padding:0;text-align:left}
+.feed1-date span {font-weight:bold;color:#333;font-size:14px;}
+.feed1-item {margin:0 0 0 65px;padding:0;}
+.feed1-item a h3, .feed1-item a:link h3, .feed1-item a:active h3, .feed1-item a:visited h3 {color:#092c74;text-decoration:none;font-size:14px;font-weight:normal;margin-top:10px;line-height:18px;}
+.feed1-item a:hover h3, .feed1-item a:hover {text-decoration:none;color:#fc6719;}
+.feed1-item p {color:#333;margin:0px;padding:0px;}
+.feed1-item h3 {margin:0px;padding:0px;font-size:1.3em;}
+.feed1-clear {clear:both;font-size:0px;height:0px}
+/*Flickr Code*/
+/*#flickr_badge_source_txt {padding:0; font: 11px Arial, Helvetica, Sans serif; color:#666666;}*/
+#flickr_badge_icon {display:block !important; margin:0 !important; border: 1px solid rgb(0, 0, 0) !important;}
+#flickr_icon_td {padding:0 5px 0 0 !important;}
+.flickr_badge_image {text-align:center !important;}
+/*Just Titles XSL*/
+.DNN_News_ItemLink { margin-bottom:10px;font-size:16px;font-weight:normal; }
+.DNN_News_ItemLink a { color:#092c74;text-decoration:none;font-size:inherit}
+.DNN_News_ItemLink a:Hover { color:#ff9231;text-decoration:none;}
+@media screen and (max-device-width:480px) {
+.flickr_badge_image img {}
+.news1-item h3 {font-size:1em;}
+.news1-item p {font-size:.9em;}
+}
+.flickr_badge_image a img {/*width:100%;max-width:100%;*/}
+.flickr_badge_image img {-webkit-box-shadow: #666 0px 1px 8px;-moz-box-shadow: #666 0px 1px 8px;box-shadow: #666 0px 1px 8px;}
+#flickr_www {display:block; text-align:left; padding:0 10px 0 10px !important; font: 11px Arial, Helvetica, Sans serif !important; color:#3993ff !important;}
+#flickr_badge_wrapper {width:100%;}
+#flickr_badge_source {padding:0 !important; font: 11px Arial, Helvetica, Sans serif !important; color:#666666 !important;}
+.enav {background:#fc6719;margin:0;padding:0;-webkit-border-radius: 15px;-moz-border-radius: 15px;border-radius: 15px;-webkit-box-shadow: #666 0px 1px 8px;-moz-box-shadow: #666 0px 1px 8px;box-shadow: #666 0px 1px 8px;}
+.enav h3 {line-height:18px;color:#fff;font-size:18px;}
+.Normal p {font-size:1.2em; margin:0;padding:0 0 8px 0;}
