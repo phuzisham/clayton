@@ -1,0 +1,278 @@
+
+.navxp_VP_Outlook_Clayton_State {
+    background-color: #ffffff;
+    width: ;
+    border-width: 1px; border-style: none; border-color: #d1d9e0; border-bottom-width: 1px; border-bottom-style: solid; border-bottom-color: #d1d9e0; border-top-width: 1px; border-top-style: none; border-top-color: #1f6396;
+    border-bottom: 0px; border-right: 0px; border-left: 0px;
+
+    text-align: left;
+    overflow: hidden;
+}
+
+.navxp_VP_Outlook_Clayton_State a.itemL0:link, .navxp_VP_Outlook_Clayton_State a.itemL0:visited {
+
+    display: block;
+
+    font-style: normal; font-variant: normal; font-weight: bold; font-size: .9em; font-family: Arial; text-decoration: none; color: #092c74; text-align: left;
+    padding-top: 10px; padding-right: 10px; padding-bottom: 10px; padding-left: 7px;
+    border-width: 1px; border-style: none; border-color: #d1d9e0; border-bottom-width: 1px; border-bottom-style: solid; border-bottom-color: #d1d9e0; border-top-width: 1px; border-top-style: none; border-top-color: #1f6396;
+    border-top: 0px;
+
+    background-image: url();
+    background-repeat: repeat-x;
+
+    white-space: pre-wrap;
+    overflow: hidden;
+}
+
+.navxp_VP_Outlook_Clayton_State a.itemL0:hover, .navxp_VP_Outlook_Clayton_State a.itemL0:active {
+    display: block;
+    white-space: pre-wrap;
+    overflow: hidden;
+
+    font-style: normal; font-variant: normal; font-weight: bold; font-family: Arial; text-decoration: none; color: #ffffff; text-align: left; font-size: .9em;
+    padding-top: 10px; padding-right: 10px; padding-bottom: 10px; padding-left: 7px;
+    border-width: 1px; border-style: none; border-color: #d1d9e0; border-bottom-width: 1px; border-bottom-style: solid; border-bottom-color: #d1d9e0; border-top-width: 1px; border-top-style: none; border-top-color: #1f6396;
+    border-top: 0px;
+
+    background-image: url(../images/CS-blue.png);
+    background-repeat: repeat-x;
+}
+
+.navxp_VP_Outlook_Clayton_State a.itemL0Sel:link, .navxp_VP_Outlook_Clayton_State a.itemL0Sel:visited,
+.navxp_VP_Outlook_Clayton_State a.itemL0Sel:hover, .navxp_VP_Outlook_Clayton_State a.itemL0Sel:active {
+    display: block;
+    white-space: pre-wrap;
+    overflow: hidden;
+
+    font-style: normal; font-variant: normal; font-weight: bold; font-size: .9em; font-family: Arial; text-decoration: none; color: #ffffff; text-align: left;
+    padding-top: 10px; padding-right: 10px; padding-bottom: 10px; padding-left: 7px;
+    border-width: 1px; border-style: none; border-color: #d1d9e0; border-bottom-width: 1px; border-bottom-style: solid; border-bottom-color: #d1d9e0; border-top-width: 1px; border-top-style: none; border-top-color: #1f6396;
+    border-top: 0px;
+
+    background-image: url(../images/CS-blue.png);
+    background-repeat: repeat-x;
+}
+
+.navxp_VP_Outlook_Clayton_State .child_container {
+
+}
+
+.navxp_VP_Outlook_Clayton_State a.itemLN:link, .navxp_VP_Outlook_Clayton_State a.itemLN:visited {
+
+    display: block;
+
+    font-style: normal; font-variant: normal; font-weight: normal; font-size: .9em; font-family: Arial; text-decoration: none; text-align: left; color: #000000;
+    padding-top: 7px; padding-right: 6px; padding-bottom: 7px; padding-left: 30px;
+    border-top-width: 1px; border-top-style: solid; border-top-color: #092c74; border-bottom-style: solid; border-bottom-width: 1px; border-bottom-color: #092c74;
+
+    border-top: 0px;
+
+   /* margin-left: 2px;*/
+
+    white-space: pre-wrap;
+    overflow: hidden;
+}
+
+.navxp_VP_Outlook_Clayton_State a.itemLN:hover, .navxp_VP_Outlook_Clayton_State a.itemLN:active {
+
+    white-space: pre-wrap;
+    overflow: hidden;
+
+    font-style: normal; font-variant: normal; font-weight: normal; font-size: .9em; font-family: Arial; text-decoration: none; text-align: left; color: #ffffff;
+    background-color: #092c74;
+}
+
+.navxp_VP_Outlook_Clayton_State a.itemLNSel:link, .navxp_VP_Outlook_Clayton_State a.itemLNSel:visited,
+.navxp_VP_Outlook_Clayton_State a.itemLNSel:hover, .navxp_VP_Outlook_Clayton_State a.itemLNSel:active {
+
+    display: block;
+    height: 16px;
+
+    font-style: normal; font-variant: normal; font-weight: bold; font-size: .9em; font-family: Arial; text-decoration: none; color: #ffffff; text-align: left;
+    background-color: #092c74;
+    padding-top: 7px; padding-right: 6px; padding-bottom: 7px; padding-left: 30px;
+    border-top-width: 1px; border-top-style: solid; border-top-color: #092c74; border-bottom-style: solid; border-bottom-width: 1px; border-bottom-color: #092c74;
+    border-top: 0px;
+
+    /*margin-left: 2px;*/
+
+    white-space: pre-wrap;
+    overflow: hidden;
+
+}
+
+.navxp_VP_Outlook_Clayton_State .expandCollapseL0 {
+    position: relative;
+    display: inline;
+    float: right;
+    width: 9px;
+    height: 10px;
+    /* margin-left: 178px; */
+    margin-top: -25px;
+    padding: 3px;
+    margin-left: -20px;
+    margin-right: 6px;
+
+    /* margin-left: -24px;
+    margin-right: 7px; */
+
+
+
+}
+
+.navxp_VP_Outlook_Clayton_State .expandCollapseL0:hover {
+    background-color: #ffffff;
+    border-width: 1px; border-style: none; border-color: #527db5;
+}
+
+.navxp_VP_Outlook_Clayton_State .expandCollapseLN {
+    position: relative;
+    display: inline;
+    float: right;
+    width: 9px;
+    height: 10px;
+    margin-top: 2px;
+    padding: 1px 2px 1px 2px;
+    margin-top: -18px;
+    margin-left: -20px;
+    margin-right: 6px;
+
+
+
+}
+
+.navxp_VP_Outlook_Clayton_State .expandCollapseLN:hover {
+    background-color: #ffdb94;
+    border: 1px solid #527db5;
+
+
+    border-width: 1px; border-style: none; border-color: #527db5;
+}
+
+.navxp_VP_Outlook_Clayton_State .expanded {
+    background-image: url(../images/arrow_up_blue.gif);
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.navxp_VP_Outlook_Clayton_State .collapsed {
+    background-image: url(../images/arrow_down_blue.gif);
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+/*
+    Add your own styles to this file, which is loaded only for theme Clayton State.
+    To avoid style collisions, prefix your styles with the CSS class of root NavXp element.
+*/
+
+.navxp_VP_Outlook_Clayton_State a.itemLNSel:link, .navxp_VP_Outlook_Clayton_State a.itemLNSel:visited,
+.navxp_VP_Outlook_Clayton_State a.itemLNSel:hover, .navxp_VP_Outlook_Clayton_State a.itemLNSel:active {
+	height: auto;
+}
+
+.navxp_VP_Outlook_Clayton_State .expandCollapseLN:hover {
+	background-color: #FFF;
+}
+
+.navxp_VP_Outlook_Clayton_State a.itemL0Sel:link, .navxp_VP_Outlook_Clayton_State a.itemL0Sel:visited, .navxp_VP_Outlook_Clayton_State a.itemL0Sel:hover, .navxp_VP_Outlook_Clayton_State a.itemL0Sel:active {
+    display: block;
+    white-space: pre-wrap;
+    overflow: hidden;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: bold;
+    font-size: .9em;
+    font-family: Arial;
+    text-decoration: none;
+    color: #ffffff;
+    text-align: left;
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 7px;
+    border-width: 1px;
+    border-style: none;
+    border-color: #d1d9e0;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: #d1d9e0;
+    border-top-width: 1px;
+    border-top-style: none;
+    border-top-color: #1f6396;
+    border-top: 0;
+    /*background-image: url();
+    background-repeat: repeat-x;*/
+	background-color:#092c74;
+}
+.navxp_VP_Outlook_Clayton_State a.itemL0:hover, .navxp_VP_Outlook_Clayton_State a.itemL0:active {
+    display: block;
+    white-space: pre-wrap;
+    overflow: hidden;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: bold;
+    font-family: Arial;
+    text-decoration: none;
+    color: #ffffff;
+    text-align: left;
+    font-size: .9em;
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 7px;
+    border-width: 1px;
+    border-style: none;
+    border-color: #d1d9e0;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: #d1d9e0;
+    border-top-width: 1px;
+    border-top-style: none;
+    border-top-color: #1f6396;
+    border-top: 0;
+   background-color:#092c74;
+}
+.navxp_VP_Outlook_Clayton_State a.itemLN:link, .navxp_VP_Outlook_Clayton_State a.itemLN:visited {
+    display: block;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: normal;
+    font-size: .9em;
+    font-family: Arial;
+    text-decoration: none;
+    text-align: left;
+    padding-top: 7px;
+    padding-right: 6px;
+    padding-bottom: 7px;
+    padding-left: 30px;
+    border-top-width: 1px;
+    border-top-style: solid;
+    border-top-color: #092c74;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    border-bottom-color: #092c74;
+    border-top: 0;
+    white-space: pre-wrap;
+    overflow: hidden;
+}
+
+.iconheadings {
+  text-align: left;
+}
+.icons {
+  text-align: left;
+  float: left;
+  padding:5px 30px 30px 0px;
+  width: 75px;
+}
+
+.dept-cover-image {
+    background: url(../images/bursar-cover-image.png) 50% 40% / cover no-repeat;
+    height: 400px;
+}
+
+table.small-text td {
+  font-size: 12px;
+  padding: 0;
+}
