@@ -173,4 +173,15 @@ $(window).load(function(){
     }
   });
 });
+
+	$('#collegeNav #menu-button').on('click', function(){
+    var menu = $(this).next('ul');
+    if (menu.hasClass('open')) {
+      menu.removeClass('open');
+    } else {
+      menu.addClass('open');
+    }
+  });
+
+
 // moved from body
