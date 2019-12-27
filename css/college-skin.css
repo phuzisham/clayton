@@ -682,6 +682,7 @@ a.orange-link:hover {
 	position:relative;
 	text-align:center;
 	color:#fff;
+  background-color: #000;
 }
 .heroColorBlock {
 	background-color:#092c74;
