@@ -336,6 +336,6 @@ li p {
 }
 
 .careerButton {
-  color: #fff;
-  background-color: #54565b;
+  color: #fff !important;
+  background-color: #54565b !important;
 }
