@@ -1078,8 +1078,8 @@ a.orange-link:hover {
     padding: 15px 20px;
     font-weight: 400;
     font-size: 1.6em;
-    color: #fff;
-	background-color:#54565b;
+    color: #fff !important;
+	background-color:#54565b !important;
     cursor: pointer;
   }
   #collegeNav #menu-button:after {
