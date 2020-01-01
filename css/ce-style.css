@@ -53,11 +53,6 @@ hr.styletwo {
   padding: 10px;
 }
 
-.view-more {
-  background-color:#092c74;
-  color:#fff;
-}
-
 .box-button a {
   background-color:#092c74;
   color:#fff;
@@ -65,6 +60,12 @@ hr.styletwo {
   font-size:16px;
   font-weight: bold;
 }
+
+.view-more {
+  background-color:#092c74 !important;
+  color:#fff !important;
+}
+
 .box {
   position:relative;
   width:31%;
