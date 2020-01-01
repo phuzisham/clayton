@@ -53,8 +53,8 @@ hr.styletwo {
   padding: 10px;
 }
 .box-button a {
-  background-color:#092c74;
-  color:#fff;
+  background-color:#092c74 !important;
+  color:#fff !important;
   padding:10px;
   font-size:16px;
   font-weight: bold;
