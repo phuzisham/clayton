@@ -51,21 +51,14 @@ hr.styletwo {
   bottom: 0px;
   margin-bottom: 20px;
   padding: 10px;
-  background-color:#092c74;
-  color:#fff;
 }
 
 .box-button a {
-  background-color:#092c74;
   color:#fff;
+  background-color:#092c74;
   padding:10px;
   font-size:16px;
   font-weight: bold;
-}
-
-.view-more {
-  background-color:#092c74 !important;
-  color:#fff !important;
 }
 
 .box {
