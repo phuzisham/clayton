@@ -66,6 +66,10 @@ hr.styletwo {
   color:#fff !important;
 }
 
+.view-more a {
+  color: #fff!important;
+}
+
 .box {
   position:relative;
   width:31%;
