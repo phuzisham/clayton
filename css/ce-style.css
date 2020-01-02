@@ -61,7 +61,7 @@ hr.styletwo {
   font-weight: bold;
 }
 
-.claytonModuleContent .box .box-button a {
+body .sidebar-container .sidebar .claytonModuleContent .box .box-button a {
   background-color:#092c74;
   color:#fff;
 }
