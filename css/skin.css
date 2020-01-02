@@ -5777,3 +5777,18 @@ header.mainHeader * {}
   background-color: #fff !important;
   color: rgb(255, 102, 0);
 }
+
+.dreams-container {
+  height: 100%;
+  position: relative;
+}
+
+.dreams-text {
+  text-align: center;
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  right: 0%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
