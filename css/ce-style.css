@@ -54,21 +54,26 @@ hr.styletwo {
 }
 
 .box-button a {
-  background-color:#092c74;
-  color:#fff;
+  /* background-color:#092c74;
+  color:#fff; */
   padding:10px;
   font-size:16px;
   font-weight: bold;
 }
 
-.view-more {
+.box .box-button a {
+  background-color:#092c74;
+  color:#fff;
+}
+
+/* .view-more {
   background-color:#092c74 !important;
   color:#fff !important;
 }
 
 .view-more a {
   color: #fff!important;
-}
+} */
 
 .box {
   position:relative;
