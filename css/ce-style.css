@@ -54,11 +54,16 @@ hr.styletwo {
 }
 
 .box-button a {
-  color:#fff;
   background-color:#092c74;
+  color:#fff;
   padding:10px;
   font-size:16px;
   font-weight: bold;
+}
+
+.view-more {
+  background-color:#092c74 !important;
+  color:#fff !important;
 }
 
 .box {
