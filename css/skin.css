@@ -5744,12 +5744,21 @@ header.mainHeader * {}
         padding:0;
       }
 
-.blueBack {
+/* .blueBack {
   background-color: rgb(9,44,116);
   color: #fff;
 }
 
 .blueBack:hover {
+  background-color: #54565b !important;
+} */
+
+#navbar .mainMenu #stamatsMenu ul li a {
+  background-color: rgb(9,44,116);
+  color: #fff;
+}
+
+#navbar .mainMenu #stamatsMenu ul li a:hover {
   background-color: #54565b !important;
 }
 
