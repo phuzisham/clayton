@@ -5744,15 +5744,6 @@ header.mainHeader * {}
         padding:0;
       }
 
-/* .blueBack {
-  background-color: rgb(9,44,116);
-  color: #fff;
-}
-
-.blueBack:hover {
-  background-color: #54565b !important;
-} */
-
 .blueBack {
   background-color: rgb(9,44,116);
   color: #fff;
