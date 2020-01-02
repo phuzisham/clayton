@@ -5753,12 +5753,12 @@ header.mainHeader * {}
   background-color: #54565b !important;
 } */
 
-body #siteWrapper header #navbar .mainMenu #stamatsMenu ul li a {
+.blueBack {
   background-color: rgb(9,44,116);
   color: #fff;
 }
 
-body #siteWrapper header #navbar .mainMenu #stamatsMenu ul li a:hover {
+#stamatsMenu ul li a:hover .blueBack{
   background-color: #54565b !important;
 }
 
